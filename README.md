@@ -1,0 +1,2 @@
+# Proyecto-Carlos
+“Un sitio web sencillo, diseño simple con una página de servicios (descripciones breves lo que haces con imágenes), quienes somos y contacto (un formulario de contacto con tu mail, un botón para que te envíen WhatsApp y dirección). Contará además, con posicionamiento SEO el cual incluye la aparición del sitio entre las primeras 20 posiciones en los buscadores Google, Bing y Yahoo; este debe ser mantenido para estar entre esas posiciones” 
