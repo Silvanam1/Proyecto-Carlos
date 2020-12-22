@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="http://localhost/Proyecto-Carlos/general.css">
     <title>Document</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
     require('view/shell/header.php');
     ?>
     <a href="view/pages/nosotros.php">ir a la web</a>
-    <p>este es el contenido de la pagina</p>
+    <p class="parrafo">este es el contenido de la pagina</p>
     <?php
     require('view/shell/footer.php');
     ?>
