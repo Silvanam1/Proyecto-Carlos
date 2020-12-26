@@ -3,6 +3,58 @@
     margin: 0;
     padding: 0;
 }
+#header
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #088CFF;
+    /*afecta todas las paginas*/
+}
+
+#header h1{
+    width: 30%;
+    margin-left: 5%;
+}
+#header h1 a{
+    color: black;
+    text-decoration: none;
+}
+#header h1 a:hover{
+    margin-left: 5%;
+    text-decoration: none;
+    background-color: #07DEA8;
+    transition-duration: 500ms;
+    transition-property: padding;
+    padding: 1.1%;
+    border-radius: 5%;
+}
+#header nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+#header nav a{
+    margin-left: 5%;
+    text-decoration: none;
+    padding: 0.9%;
+    color: white;
+    font-size: x-large;
+}
+#header nav a:hover{
+    margin-left: 5%;
+    text-decoration: none;
+    background-color: #07DEA8;
+    transition-duration: 500ms;
+    transition-property: padding;
+    padding: 1.1%;
+    border-radius: 5%;
+    color: white;
+    font-size: x-large;
+}
+
+
 
 /* .parrafo
 {
