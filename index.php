@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div>
-                <img src="img\imagenes\fondo4full.jpg" alt="" class="imagenCard">
+                <img src="img\imagenes\fondo4full.jpg" alt="" class="imagenCard" >
             </div>
         </section>
         <section class="card" id="Servicios" style="">
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div>
-                <img src="img\imagenes\servicios250x200full.jpg" alt="" class="imagenCard">
+                <img src="img\imagenes\servicios250x200full.jpg" alt="" class="imagenCard" >
             </div>
         </section>
     </div> 
@@ -76,7 +76,7 @@
                 } ?>
                 vertical-align: middle; width:100%;">
                 
-                <img src="http://localhost/Proyecto-Carlos/img/empresas/<?php echo($value);?>" style="width:300px;">
+                <img src="img\empresas\<?php echo($value);?>" style="width:300px;">
                 </div>
 
 <?php

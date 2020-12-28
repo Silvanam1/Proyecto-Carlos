@@ -38,6 +38,16 @@
                         </li>                     
                     </ul>
                 </li>
+                <li>
+                    Correos
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="mailto:ventas@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>ventas@dimver.com.ar</li>
+                        <li><a href="mailto:contacto@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>contacto@dimver.com.ar</li>
+                        <li><a href="mailto:soporte-tecnico@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>soporte-tecnico@dimver.com.ar</li>
+                    </ul>
+                </li>
             </ul>
         </article>
         <article>
