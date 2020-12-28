@@ -6,7 +6,7 @@
         <a href="" class="boton"> Nosotros </a>
         <a href="" class="boton"> Servicios </a>
         <a href="" class="boton"> Cartelera </a>
-        <a href="" class="boton"> Contacto </a>
+        <a href="view\pages\contacto.php" class="boton"> Contacto </a>
 
     </nav>
 </header>
