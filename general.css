@@ -1,16 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto*/
 *
 {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    #header
+    {
+        height: 140px;
+    }
+    #footer{
+    
+    }
+    .boton{
+        height: 30px;
+    }
+    .imagenCard{
+        height: 100%;
+        padding: 0.5rem;
+    }
+  }
+@media (min-width:600px){
+    #header
+    {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2%;
+        height: 100px !important;
+    }
+    #header h1{
+        width: 30%;
+        margin-left: 5%;
+    }
+    #header nav{
+        width: 65%;
+    }
+    #header nav a:hover{
+        text-decoration: none;
+        height: 40px;
+        background-color: #07DEA8;
+        transition-duration: 500ms;
+        transition-property: padding;
+        padding: 1.1%;
+        border-radius: 5%;
+        color: white;
+        font-size: x-large;
+    }
+    /* footer */
+    #footer section{
+        width: 50%;
+    }
+    .boton{
+        height: 40px;
+    }
+    .card{
+        display:flex;
+    }
+    .imagenCard{
+        height: 250px;
+        padding: 1rem;
+    }
+}
+/* las etiquetas #header afecta todas las paginas*/
 #header
 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 3%;
-    padding-bottom: 3%;
     background-color: #088CFF;
-    /*afecta todas las paginas*/
+    height: 120px;
 }
 
 #header h1{
@@ -22,7 +82,6 @@
     text-decoration: none;
 }
 #header h1 a:hover{
-    margin-left: 5%;
     text-decoration: none;
     background-color: #07DEA8;
     transition-duration: 500ms;
@@ -33,17 +92,19 @@
 #header nav{
     display: flex;
     flex-wrap: wrap;
-    width: 65%;
 }
-#header nav a{
+/*#header nav a*/
+.boton{
+    display: inline;
     margin-left: 5%;
     text-decoration: none;
     padding: 0.9%;
     color: white;
     font-size: x-large;
+    border-left: 6px solid #07DEA8;
 }
-#header nav a:hover{
-    margin-left: 5%;
+/*#header nav a*/
+.boton:hover{
     text-decoration: none;
     background-color: #07DEA8;
     transition-duration: 500ms;
@@ -53,9 +114,81 @@
     color: white;
     font-size: x-large;
 }
+/*footer*/
+#footer{
 
-
-
+    padding: 2%;
+}
+#footer section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li{
+    list-style: none;
+    margin-top: 16px;
+}
+.btn{
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5%;
+    color: white;
+}
+.rojo{
+    background-color: red;
+}
+.rojo:hover{
+    background-color: brown;
+}
+.azul{
+    background-color: #088CFF;
+}
+.azul:hover{
+    background-color: #59aaf1;
+}
+.verde{
+    background-color: green;
+}
+.verde:hover{
+    background-color: rgb(25, 134, 25);
+}
+ /*cuerpo*/
+main{
+    margin: 0 5%;
+    text-align: center;
+    height: 80px;
+}
+.h1Construccion{
+    text-align: center;
+}
+.card{
+    margin: 1%;
+    width: 97.8%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 1% 0;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.contenido{
+    margin: 1%;
+}
+.texto{
+    text-align: justify;
+    line-height: 45px;
+    
+}
+.imagenCard{
+    
+}
+.tituloCard{
+    margin: 1% 1% 1% 3% ;    
+}
 /* .parrafo
 {
     background-color: blue;

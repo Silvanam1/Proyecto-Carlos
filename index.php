@@ -3,41 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/Proyecto-Carlos/general.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="carrusell.css">
+    <script src="https://kit.fontawesome.com/f3c3af2199.js" crossorigin="anonymous"></script>
+    <!--<script src="carrusell.js"></script>-->
+    <title>DIMVER</title>
 </head>
 <body>
     <?php
     require('view/shell/header.php');
     ?>
-    <a href="view/pages/nosotros.php">ir a la web</a>
-    <h2 > Nosotros (breve introducción sobre nosotros) </h2>
-    <!--Botón de Nosotros -->
-    <h2 > Servicios (breve introducción sobre Servicios) </h2>
-    <!--Botón de contacto -->
-    <h2>Nuestros Clientes ( logos con los clientes) </h2>
-    <h1> Cartelera de clientes</h1>
-    <img src="buenosaires.png" alt="Buenos Aires">
-    <img src="aerolineasargentinas.png" alt="Aerolineas Argentinas">
-    <img src="amia.png" alt="Amia">
-    <img src="rex.png" alt="Rex">
-    <img src="dufour.png" alt="Dufour">
-    <img src="jazminchebar.png" alt="Jazmin Chebar">
-    <img src="universidadsanandres.png" alt="Universidad de San Andres">
-    <img src="blaque.png" alt="Blaque">
-    <img src="samsung.png" alt="Samsung">
-    <img src="kansas.png" alt="Kansas">
-    <img src="cocot.png" alt="Cocot">
-    <img src="burguerking.png" alt="Burguer King">
-    <img src="tango.png" alt="Tango">
-    <img src="bonafide.png" alt="Bonafide">
-    <img src="bago.png" alt="Bagó">
-    <img src="lacabrera.png" alt="La Cabrera">
-<br>
+    <div>
+        <section class="card" id="nosotros">
+            <div>
+                <article class="contenido">
+                    <h2 class="tituloCard"> Nosotros</h2>
+                    <p class="texto">Nuestra empresa Dimver se encuentra asociada y cuenta con el apoyo de la empresa de 
+                        monitoreo por más de 30 años de trayectoria en lo que respecta a objetivos instalados,
+                        en la actualidad alrededor de un total de 15.000 son abonados que depositaron su 
+                        confianza. Nace en el año 1990, como una empresa pionera en el mercado argentino con 
+                        el lanzamiento del Primer Sistema Integral de Seguridad por Monitoreo.</p>
+                </article>
+                <div class="contenido">
+                    <a href="#nosotros" class="boton" style="color: black;font-size: large;">ver más</a>
+                </div>
+            </div>
+            <div>
+                <img src="img\imagenes\fondo4full.jpg" alt="" class="imagenCard">
+            </div>
+        </section>
+        <section class="card" id="Servicios" style="">
+            <div >
+                <article class="contenido">
+                    <h2 class="tituloCard">Servicios</h2>
+                    <p class="texto">Los sistemas adicionales aumentan el nivel de seguridad de la alarma de intrusión. 
+                        Al momento de diseñar un sistema de alarma de intrusión, tenido en cuenta sus 
+                        requerimientos, pero los mismos pueden cambiar, ya sea por modificaciones en el 
+                        exterior de la propiedad o en el vecindario, por remodelaciones en el interior, 
+                        por el valor de su contenido o el riesgo de intrusión, además de otros factores que 
+                        puedan afectar el grado de seguridad previsto.</p>
+                </article>
+                <div class="contenido">
+                    <a href="#Servicios" class="boton" style="color: black;font-size: large;">ver más</a>
+                </div>
+            </div>
+            <div>
+                <img src="img\imagenes\servicios250x200full.jpg" alt="" class="imagenCard">
+            </div>
+        </section>
+    </div> 
+
+
+    <section>
+    <article class="card" id="Clientes" style="display:block;">
+
+    <h2 class="tituloCard">Nuestros Clientes</h2>
+    <div id="carrusel" class="slideshow-container">
+<?php
+    // Ruta del directorio donde están los archivos
+    $path  = 'img/empresas'; 
+
+    // Arreglo con todos los nombres de los archivos
+    $files = array_diff(scandir($path), array('.', '..')); 
+    #echo(count($files).' + + +');
+    foreach ($files as $key => $value) {
+        # code...
+        $valor = $key -1;
+        ?>
+
+                <div class="mySlides fade" style=" <?php if ($valor == 1) {
+                    echo('display: table-cell;');
+                } ?>
+                vertical-align: middle; width:100%;">
+                
+                <img src="http://localhost/Proyecto-Carlos/img/empresas/<?php echo($value);?>" style="width:300px;">
+                </div>
+
+<?php
+    }
+?>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+        
+<?php
+foreach ($files as $key => $value) {
+    # code...
+    $valor = $key -1;
+    ?>
+
+        <span class="dot" onclick="currentSlide(<?php echo($valor) ?>)"></span>
+        
+    <?php
+}
+?>
+        </div>
+
+    </article>
+    </section>
+
+    
+<script>
+    var slideIndex = 1;
+    var slideIndex2 = 0;
+    var estado=true;
+    girasoli();
+
+function girasoli() {
+    
+    if(this.estado){
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slideIndex2++;
+        if (slideIndex2 > slides.length) {slideIndex2 = 1}
+        slides[slideIndex2-1].style.display = "table-cell";
+        dots[slideIndex-1].className += " active";
+        setTimeout(girasoli, 2500); // Change image every 2 seconds
+        
+    }
+}
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "table-cell";
+  dots[slideIndex-1].className += " active";
+  this.estado=false;
+}
+</script>
 
 
     <?php
     require('view/shell/footer.php');
     ?>
+
 </body>
 </html>
