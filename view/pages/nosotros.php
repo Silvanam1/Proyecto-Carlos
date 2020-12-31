@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../general.css">
-    <title>Document</title>
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="nosotros.css">
 </head>
 <body>
     <?php
     require('../shell/header.php');
     ?>
-    <a href="../../index.php">ir al index</a>
+
+        <section class="card" id="nosotros">
+            <div>
+                <article class="contenido">
+                    <h2 class="tituloCard"> Nosotros</h2>
+                    <div class="texto"><p>Aca va el contenido contenido</p></div>
+                </article>
+                <div class="contenido">
+                    <a href="#nosotros" class="boton" style="color: black;font-size: large;">ver más</a>
+                </div>
+            </div>
+            <div>
+                <img src="img\imagenes\fondo4full.jpg" alt="" class="imagenCard" >
+            </div>
+        </section>
+
     <br>
     <!--  Pedir datos de : Descripción de nuestro padre y su trayectoria comercial.-->
     <br>
