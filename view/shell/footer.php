@@ -8,7 +8,7 @@
                     <a href="https://www.google.com.ar/maps/place/Gral.+Manuel+Blanco+Encalada+1983,+B1712CFE+Castelar,+Provincia+de+Buenos+Aires/@-34.6517544,-58.6359088,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc7582fa36289:0x42a45bc834b24483!8m2!3d-34.6517588!4d-58.6337201" class="btn azul">
                         <i class="fa fa-map"></i>
                     </a>
-                    BLANCO ENCALADA 1983, CASTELAR
+                    BLANCO ENCALADA 1983, CASTELAR, CP: 1712
                 </li>
                 <li>
                     Teléfonos Móviles
@@ -22,19 +22,19 @@
                         </li>
                         <li>
                         <a href="https://api.whatsapp.com/send?phone=5491533326375" class="btn verde">
-                        <i class="fab fa-whatsapp"></i></a> 1533326375
+                        <i class="fab fa-whatsapp"></i></a> 1526442919
                         
                         </li>                       
                     </ul>
                 </li>
                 <li>
-                    Teléfonos Fijos
+                    Línea directa
                 </li>
                 <li>
                     <ul>
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i> 
-                            4628-6907 / 4629-5298
+                             4629-5298 - Contacto telefónico de lunes a viernes de 8 a 17hs.
                         </li>                     
                     </ul>
                 </li>
@@ -44,7 +44,7 @@
                 <li>
                     <ul>
                         <li><a href="mailto:ventas@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>ventas@dimver.com.ar</li>
-                        <li><a href="mailto:contacto@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>contacto@dimver.com.ar</li>
+                        <li><a href="mailto:administracion@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>administracion@dimver.com.ar</li>
                         <li><a href="mailto:soporte-tecnico@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>soporte-tecnico@dimver.com.ar</li>
                     </ul>
                 </li>

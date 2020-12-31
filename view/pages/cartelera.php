@@ -12,7 +12,7 @@
     ?>
     <a href="../../index.php">ir al index</a>
     <br>
-    <h1> Cartelera de clientes</h1>
+    <h1> Nuestros Clientes</h1>
     <img src="../../buenosaires.png" alt="Buenos Aires">
     <img src="../../aerolineasargentinas.png" alt="Aerolineas Argentinas">
     <img src="../../amia.png" alt="Amia">

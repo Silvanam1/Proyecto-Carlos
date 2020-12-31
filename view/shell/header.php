@@ -5,7 +5,7 @@
         <!--<a href="http://localhost/Proyecto-Carlos/index.php"> Index </a>-->
         <a href="view\pages\nosotros.php" class="boton"> Nosotros </a>
         <a href="" class="boton"> Servicios </a>
-        <a href="" class="boton"> Cartelera </a>
+        <a href="" class="boton"> Clientes </a>
         <a href="view\pages\contacto.php" class="boton"> Contacto </a>
 
     </nav>

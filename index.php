@@ -59,6 +59,7 @@
 
     <h2 class="tituloCard">Nuestros Clientes</h2>
     <div id="carrusel" class="slideshow-container">
+    
 <?php
     // Ruta del directorio donde están los archivos
     $path  = 'img/empresas'; 
@@ -160,6 +161,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   this.estado=false;
 }
+
+
 </script>
 
 
