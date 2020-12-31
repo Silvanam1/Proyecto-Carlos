@@ -16,15 +16,25 @@
             <div>
                 <article class="contenido">
                     <h2 class="tituloCard"> Nosotros</h2>
-                    <div class="texto"><p>Aca va el contenido contenido</p></div>
+                    <div class="texto">
+                        <p>Aca va el contenido contenido</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, voluptatum!
+                        Fuga inventore sint praesentium laudantium eveniet iure tempora accusantium 
+                        quod sed optio harum odio iste, ullam repudiandae tenetur dolor nam?</p>
+                     </div>
                 </article>
+                <!-- 
+                    boton
                 <div class="contenido">
                     <a href="#nosotros" class="boton" style="color: black;font-size: large;">ver más</a>
                 </div>
+                -->
             </div>
+ 
             <div>
-                <img src="img\imagenes\fondo4full.jpg" alt="" class="imagenCard" >
+                <img src="../../img/imagenes/fondo4full.jpg" alt="" class="imagenCard" >
             </div>
+
         </section>
 
     <br>
@@ -60,5 +70,6 @@
     <?php
     require('../shell/footer.php');
     ?>
+    <script src="https://kit.fontawesome.com/f3c3af2199.js" crossorigin="anonymous"></script>
 </body>
 </html>
