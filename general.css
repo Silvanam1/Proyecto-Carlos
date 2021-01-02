@@ -24,6 +24,9 @@
         height: 80%;
         margin: 10%;
     }
+    .texto{
+        margin:5px;
+    }
   }
 @media (min-width:600px){
     #header

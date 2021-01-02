@@ -11,7 +11,7 @@
     <?php
     require('../shell/header.php');
     ?>
-    <a href="../../index.php">ir al index</a>
+
 <br>
 <br>
     <h1>Contacto</h1>
@@ -92,13 +92,30 @@
 <br>
 <br>
 
-    <p>BLANCO ENCALADA 1983, CASTELAR. (CP 1712) </p>
-    <p>TELÉFONOS: 4628-6907 / 4629-5298</p>
-    <p>CELULAR: 153-332-6375</p>
-    <p>ALTERNATIVO: 152-644-2919</p>
-    <p>CORREO ELECTRÓNICO: DIMVER2020@GMAIL.COM</p>
+
+
     <br>
-    
+    <section class="card" id="datos de contacto">
+        <div>
+            <article class="contenido">
+                <h2 class="tituloCard">Datos de Contacto</h2>
+                <div class="texto" style="text-align: left">
+                  <p>BLANCO ENCALADA 1983, CASTELAR. (CP 1712) </p>
+                  <p>TELÉFONOS: 4628-6907 / 4629-5298</p>
+                  <p>CELULAR: 153-332-6375</p>
+                  <p>ALTERNATIVO: 152-644-2919</p>
+                  <p>CORREO ELECTRÓNICO: DIMVER2020@GMAIL.COM</p>
+                </div>
+            </article>
+
+        </div>
+<!-- 
+        <div>
+            <img src="../../img/imagenes/fondo4full.jpg" alt="" class="imagenCard" >
+        </div>
+-->
+    </section>
+
     <?php
     require('../shell/footer.php');
     ?>
