@@ -10,95 +10,144 @@
     <?php
     require('../shell/header.php');
     ?>
-    <a href="../../index.php">ir al index</a>
-    <h1>Servicios que ofrecemos: </h1>
-<!-- Preguntar info que desea ingresar en : Equipamiento a instalar (Propuesta) y  Botón antipánico p/ perimetral en el caso de violencia de genero.-->
-    <br>
-    <br>
-    <h2>SISTEMAS ADICIONALES</h2>
-    <p>
-Los sistemas adicionales aumentan el nivel de seguridad de la alarma de intrusión. Al momento de diseñar un sistema de alarma de intrusión, tenido en cuenta sus requerimientos, pero los mismos pueden cambiar, ya sea por modificaciones en el exterior de la propiedad o en el vecindario, por remodelaciones en el interior, por el valor de su contenido o el riesgo de intrusión, además de otros factores que puedan afectar el grado de seguridad previsto.
-    <br>
-    <br>
-	ANTI ENTRADERA: Aplicación celular para teléfonos celulares Android. Beneficio exclusivo y gratuito para los clientes. Estará siempre conectado con nuestra Estación Central de Monitoreo para prevenir Entraderas y utilizarlo como Botón de Pánico en tu domicilio o en tu automóvil.
-    <br>
-    <br>
-	DISPOSITIVOS ANTIMASKING: Este tipo de dispositivos se utilizan para prevenir sabotajes por obstaculización u obstrucciones accidentales.
-    <br>
-    <br>
-	CERRADURA ELECTRÓNICA: Este sistema permite dejar de lado las llaves, evitando la duplicación de las mismas y la violación de cerraduras convencionales. Permite grabar gran cantidad de información mediante el software de gestión para ser fácilmente administrada desde una PC. Además, en el caso de extraviarse una llave electrónica (TAG), se puede dar de baja inmediatamente.
-    <br>
-    <br>    
-	SISTEMAS ANTIVANDÁLICOS, ANTIDESARME, DE EXTERIOR: Dispositivos que dan aviso sonoro y visual, alertan a los vecinos y llaman la atención sobre el inmueble, disuadiendo y/o demorando al intruso. Se activa cuando se ataca a la sirena desde el exterior del inmueble (sin necesidad de intrusión).
-    <br>
-    <br>
-	TAMPER O CABLEADO ANTISABOTAJE: Permite controlar intentos de intervención sobre el cableado del sistema y/o sus detectores, aun cuando el sistema está desactivado (que es cuando los inescrupulosos intentarán violar su capacidad). Indicado especialmente para ámbitos comerciales, industriales y corporativos.
-    <br>
-    <br>
-	SIRENA EXTERIOR CON LUZ STROBOSCÓPICA: Dan aviso sonoro y visual. Se ubican al frente de la propiedad, alerta a los vecinos y llama la atención sobre el sitio protegido, disuadiendo y/o demorando al intruso. Se activa cuando se ataca la propia sirena en el exterior del inmueble, generando una alarma temprana y exponiendo al intruso.
-    <br>
-    <br>
-	MEDIOS ALTERNATIVOS DE COMUNICACIÓN: Son equipos que transmiten señales, según sea el caso (GPRS – Wireless Net – Backup Celular) asegurando la comunicación en caso que la línea telefónica terrestre deje de funcionar ya sea por un problema de corte de línea o por intento de sabotaje.
-    <br>
-    <br>
-	DETECTORES ANTISABOTAJE: Son detectores especiales que tienen la capacidad de “darse cuenta” y alertar cuando alguien intenta abrirlos o inhibirlos, aun estando el sistema de alarma desactivado. Incluso existen detectores de movimiento que indican si son enmascarados o tapados, causa muy frecuente de robos. (estos detectores requieren de Cableado Anti sabotaje).
-    </p>
+        <section class="card" id="Servicios">
+            <div>
+                <article class="contenido">
+                    <h2 class="tituloCard">Servicios</h2>
+                    <p class="texto">Los sistemas adicionales aumentan el nivel de seguridad de la alarma de intrusión. 
+                        Al momento de diseñar un sistema de alarma de intrusión, tenido en cuenta sus 
+                        requerimientos, pero los mismos pueden cambiar, ya sea por modificaciones en el 
+                        exterior de la propiedad o en el vecindario, por remodelaciones en el interior, 
+                        por el valor de su contenido o el riesgo de intrusión, además de otros factores que 
+                        puedan afectar el grado de seguridad previsto.</p>
+                    <p class="texto"> 
+                        <ul class="lista">
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">ASESORAMIENTO TÉCNICO EN SISTEMAS DE SEGURIDAD ELECTRÓNICA Y CÁMARAS DE SEGURIDAD:</span> 
+                                Realizando un relevamiento teniendo en cuenta según lo que se evalué mediante un análisis de riesgo 
+                                del lugar a instalar, para empresas, edificios, sindicatos, municipalidades, Agro, concesionaria de 
+                                autos y/o Camiones, como así los distintos rubros que sean solicitados para tal fin, con abono mensual 
+                                a pactar según la necesidad de cada caso en particular. Realizando una propuesta para cada caso 
+                                puntual. -  
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">ALARMAS MONITOREADAS:</span> Enlazado con la Central de Monitoreo 24/7, con distintos medios 
+                                de comunicación para la transferencia de información generada por el sistema de seguridad 
+                                electrónica. -
+                                </p>
 
+                                <p class="texto">
+                                Nuestros equipos instalados en lo que se refiere a sistema de seguridad electrónica monitoreado, 
+                                se encuentran encriptados mediante una serie códigos de distinta simbología, si hubiese un ingreso 
+                                a nuestra Central de Monitoreo, primero y principal de forma inmediata, se dará aviso a las autoridades 
+                                de la empresa, también a los operadores que se encuentren de turno, quedando registrado en el reporte 
+                                el sabotaje o hackeo informático. – 
+                                </p>
+                            </li>
 
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">SEGURIDAD PERIMETRAL:</span>  Instalación y análisis para domicilios, edificios, terrenos 
+                                (Alerta temprana ante una usurpación de su propiedad)    
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">PULSADORES DE PÁNICO:</span>  Para Víctimas de violencia de género, en el caso de ser abonado 
+                                y se tenga una perimetral vigente, y se viole la misma, con el requisito acreditar mediante oficio 
+                                judicial y firmado por el magistrado que interviniente, y notificación de la dependencia policial 
+                                que tomo intervención. Una vez cumplido con los requisitos nuestra empresa DIMVER (SIN COSTO ALGUNO),
+                                realizara la instalación en el lugar y equipamiento en (comodato), siempre pensando en resguardar la
+                                integridad física , Psicológica de la persona y poder ayudar ante una situación de esta índole, 
+                                acortando los tiempos, no viéndolo como una operación comercial sino un acto humano por esta empresa
+                                y su trayectoria atreves de los años, ofreciéndole un operador de turno que una vez que se recepcióne
+                                la señal de pánico, se procederá de forma automática a la activación del protocolo de esta empresa,
+                                se dará conocimiento al Centro de despacho y emergencias 911, enviando móvil de la empresa al lugar
+                                (Este ultimo se posee un costo de abono mensual). –
+                                </p>
+                                <p class="texto">
+                                <span class="negrita">Pulsadores de pánico:</span>  Para personas de avanzada edad, nuestra empresa Dimver (SIN COSTO),
+                                se realizara la instalación en el lugar y equipamiento en (comodato), con el fin de resguardar la 
+                                integridad física de la persona teniendo en cuenta, que en el lugar se instalara un pulsador con 
+                                tres botones, que incluirá la comunicación de forma directa con el operador de turno, tendrá  médico,
+                                bomberos  y Policía, de forma inmediata al lugar en el caso que se necesario y fuera evaluado por el
+                                operador de turno de esta empresa. Mediante comunicación con el 911.   
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">CÁMARAS DE SEGURIDAD:</span>  Instalación de cámaras Análogas, IP , Inteligencia Artificial (A.I).-
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">PORTERÍA VIRTUAL:</span>  Consta de un operador por turno, la instalación de cámaras de 
+                                seguridad en el lugar, se tiene una comunicación inmediata con cada uno de los propietarios. 
+                                Listado de personas Autorizadas y Ocasionales al ingreso, donde se encuentra instalado dicho sistema. - 
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">CONTROL DE ACCESO Y PRESENTISMO:</span>  Para empresas, Depósitos o se adapte a la necesidad 
+                                del futuro potencial abonado.  
+                                </p>
+                            </li>
+                                <li>
+                                <p class="texto">
+                                <span class="negrita">MONITOREO DE CAJAS FUERTES:</span>  Instalación y supervisión mediante un sistema de alarmas 
+                                monitoreado en tiempo real, como así también instalación detectores sísmicos. 
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                    <span class="negrita">SISTEMAS DE INCENDIO:</span>   Instalación y detección, redes, Extinción de incendios.  
+                                </p> 
+                            </li>
+                            <li>
+                                <p class="texto"> 
+                                <span class="negrita">ASISTENCIA TELEFÓNICA:</span>  Las 24/7 con una cantidad de operadores de turno, ante cualquier 
+                                duda o consulta, que podrán resolver o enviar el soporte del personal idóneo para solucionar la falla 
+                                técnica si lo hubiere.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">SISTEMAS DE SEGURIDAD PERSONALIZADOS:</span>  Teniendo en cuanta la protección de la persona 
+                                resguardando la integridad física de las personas y bienes materiales. En cualquier ámbito laboral, 
+                                como en lo personal, pudiendo adaptar el sistema de seguridad electrónica quedando óptimas condiciones 
+                                de uso, teniendo en cuenta, como así quedando sujeto al análisis de riesgo y relevamiento del lugar.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">INFORMES:</span>  De aperturas y cierres, comunicación de forma instantánea de apertura no 
+                                autorizadas o fuera del horario que se desempeña de forma habitual, en un domicilio residencial, 
+                                de fin de semana, empresa, deposito y/o oficina.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="texto">
+                                <span class="negrita">SISTEMA DE CONTROL DE RONDAS:</span> Herramienta esencial complementando la función del personal 
+                                de seguridad física para una correcta recorrida, generando un informe que puede ser diario, semanal, 
+                                mensual, como así la explicación del sistema de control de rondas y su dispositivo para marcar y 
+                                registrar la recorrida. 
+                                </p>
+                            </li>
+                        </ul>
 
+                    </p>
+                </article>
 
-    <br>
-    <h2>SERVICIOS ADICIONALES</h2>
-    <p>
-    Éstos servicios pueden sumarse para incrementar la seguridad de tu Sistema de Seguridad. Para ampliar todas las posibilidades que existen en cada caso:
-    <br>
-    <br>
-    NOTIFICACIÓN POR SMS: El servicio envía un SMS, informándote sobre los movimientos de tu sistema de alarma, de acuerdo a los eventos que hayas seleccionado y a los números de teléfono celular indicados.
-    <br>
-    <br>
-    NOTIFICACIÓN POR E-MAIL: El servicio envía un e-mail, informándote sobre cada movimiento de tu sistema de alarma, de acuerdo a los eventos que hayas seleccionado.
-    <br>
-    <br>
-	MONITOREO DE CAJAS FUERTES: Tanto en casas como en comercios o empresas, se puede controlar si la apertura de una caja fuerte es abierta normalmente o bajo coacción. También es posible detectar tempranamente intentos de perforaciones con distintos métodos, lo que restará un tiempo preciso a los malvivientes.
-    <br>
-    <br>    
-	MANTENIMIENTO PREVENTIVO: Se trata visitas técnicas periódicas de revisión, para detectar tempranamente, posibles fallas o anomalías en el sistema. Son fijadas y pautadas para cada caso en particular.
-    <br>
-    <br>
-	MANTENIMIENTO CORRECTIVO: Se trata visitas técnicas de acuerdo a lo que requiera el sistema instalado, adaptadas a la necesidad del cliente, fijadas y pautadas para cada caso en particular. El servicio incluye hasta dos visitas técnicas de mantenimiento correctivo al mes, sin reemplazo de dispositivos o ampliaciones en el sistema existente.
-    <br>
-    <br>
-		MÓVILES DE VERIFICACIÓN Y ASISTENCIA AL CLIENTE: Los móviles observan el inmueble desde el exterior y complementan su información con la brindada por el sistema de alarmas. Una vez que el Verificador del Móvil observa que el panorama exterior no presenta anomalías, es decir daños visibles como rotura de vidrios en ventanas, candados y/o cerraduras forzadas, puertas o rejas violentadas, o cualquier signo de violencia aparente, se retirará del domicilio informando que no encontró novedades. (SERVICIO ADAPTADO Y/O SUJETO AL RELEVAMIENTO DEL LUGAR Y LA SOLICITUD DEL ABONADO).
-    <br>
-    <br>
-		REGISTRO DEL ESTADO DEL SISTEMA: Transmite quién activó o Desactivó el sistema y a qué hora. Esto genera un registro histórico para consultas. Adicionalmente, se puede observar que el sistema de alarma instalado, reporta que no se ha utilizado en 72 horas, verificaremos con el abonado el motivo.
-    <br>
-    <br>
-	NO ACTIVÓ EN HORARIO PREVISTO: Para evitar olvidos, le avisará cada vez que tu sistema se encuentre desactivado, después de cierta hora pre fijada. Discriminando días hábiles, sábados, domingos y feriados.
-    <br>
-    <br>
-	CONTROL ESPECIAL DE LA LÍNEA TELEFÓNICA: Se realiza un chequeo horario de la línea telefónica para constatar el correcto funcionamiento de la misma.
-    <br>
-    <br>
-	MONITOREO IP: Es la verificación inmediata de imágenes digitales del inmueble vía Internet, en caso de cualquier tipo de evento de alarma recibido en la Central de Monitoreo, de modo de verificar con imágenes del sitio lo que ocurre y así evaluar la necesidad del envío de asistencia.
-    <br>
-    <br>
-	DETECCIÓN DE INCENDIO: Es el monitoreo de los dispositivos instalados en el sistema de incendio (detectores y avisadores) y de los controles técnicos como estado de la batería, corte de energía, etc.
-    <br>
-    <br>
-  
-	LISTADO CONFIDENCIAL DE AUDITOR: Se envía por correo electrónico, información completa y cronológica que registra nuestra Estación Central de Monitoreo. Puede ser diario, semanal o mensual.
-    <br>
-    <br>
-    </p>
+            </div>
 
-    <h2>Equipamiento a instalar</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aperiam tempore neque. Facilis quae quasi deleniti. Aliquid, repellendus accusantium voluptatibus, molestias placeat voluptatem sint enim esse quos veniam illo quaerat.</p>
-    <h2>Botón antipánico</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto excepturi quis odio est! Omnis ratione modi necessitatibus deleniti, maiores alias dolores tempora aspernatur eligendi sit, dolorum natus inventore! Quod, quam.</p>
-    
+        </section>
+        <script src="https://kit.fontawesome.com/f3c3af2199.js" crossorigin="anonymous"></script>
     <?php
     require('../shell/footer.php');
     ?>
+    
 </body>
 </html>

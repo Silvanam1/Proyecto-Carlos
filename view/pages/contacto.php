@@ -44,6 +44,7 @@
         <option value="Empresa"> Empresa </option>
         <option value="Privado"> Privado </option>
         <option value="Casa"> Casa </option>
+        <option value="Otro"> Otro </option>
       </select>
     </div>
   </div>
@@ -77,9 +78,11 @@
     </div>
     <div class="col-75">
       <select id="Departamento" name="Departamento">
-        <option value="venta"> Venta </option>
+        <option value="venta"> Ventas </option>
+        <!-- 
         <option value="contacto"> Contacto </option>
-        <option value="soporte"> Soporte </option>
+        <option value="soporte"> Soporte </option> 
+        -->
       </select>
     </div>
   </div>
@@ -99,7 +102,7 @@
         <div>
             <article class="contenido">
                 <h2 class="tituloCard">Datos de Contacto</h2>
-                <div class="texto" style="text-align: left">
+                <div class="texto margin-left" style="text-align: left">
                   <p>BLANCO ENCALADA 1983, CASTELAR. (CP 1712) </p>
                   <p>TELÉFONOS: 4628-6907 / 4629-5298</p>
                   <p>CELULAR: 153-332-6375</p>

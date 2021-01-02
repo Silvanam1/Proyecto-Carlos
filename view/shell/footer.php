@@ -2,7 +2,7 @@
 <footer id="footer">
     <section>
         <article>
-            <h3>Contáctenos</h3>
+            <h3 class="subrayado">Contáctenos</h3>
             <ul>
                 <li>
                     <a href="https://www.google.com.ar/maps/place/Gral.+Manuel+Blanco+Encalada+1983,+B1712CFE+Castelar,+Provincia+de+Buenos+Aires/@-34.6517544,-58.6359088,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc7582fa36289:0x42a45bc834b24483!8m2!3d-34.6517588!4d-58.6337201" class="btn azul">
@@ -27,7 +27,7 @@
                         </li>                       
                     </ul>
                 </li>
-                <li>
+                <li class="subrayado">
                     Línea directa
                 </li>
                 <li>
@@ -51,7 +51,7 @@
             </ul>
         </article>
         <article>
-            <img src="qr.jpg" alt="">
+            <img src="http://localhost/Proyecto-Carlos/img/imagenes/QRFiscal.JPG" alt="">
         </article>
     </section>
 </footer>

@@ -34,7 +34,7 @@
 <br>
 <h2>AMBAS EMPRESAS SE ENCUENTRAN ASOCIADAS AL:</h2>
 <img src="../../forodeseguridad.png" alt="Foro de Seguridad">
-    
+<script src="https://kit.fontawesome.com/f3c3af2199.js" crossorigin="anonymous"></script>
     <?php
     require('../shell/footer.php');
     ?>

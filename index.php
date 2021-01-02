@@ -13,16 +13,18 @@
     <?php
     require('view/shell/header.php');
     ?>
+    <img src="img\imagenes\s-l1600plus.jpg" class="banner">
     <div>
         <section class="card" id="nosotros">
             <div>
                 <article class="contenido">
                     <h2 class="tituloCard"> Nosotros</h2>
-                    <p class="texto">Nuestra empresa Dimver se encuentra asociada y cuenta con el apoyo de la empresa de 
-                        monitoreo por más de 30 años de trayectoria en lo que respecta a objetivos instalados,
-                        en la actualidad alrededor de un total de 15.000 son abonados que depositaron su 
-                        confianza. Nace en el año 1990, como una empresa pionera en el mercado argentino con 
-                        el lanzamiento del Primer Sistema Integral de Seguridad por Monitoreo.</p>
+                    <p class="texto"> <span class="negrita">DIMVER:</span> Es una empresa familiar que cuenta con el respaldo en su 
+                        capacidad y experiencia, para colaborar desde la concepción del proyecto hasta 
+                        el mantenimiento del mismo. Priorizamos al desarrollar nuestros sistemas de 
+                        seguridad electrónica adaptados a su necesidad, con el fin resguardar la 
+                        integridad de las personas, grupo familiar sus bienes materiales, sobre todo 
+                        cumpliendo con las normativas vigentes.</p>
                 </article>
                 <div class="contenido">
                     <a href="#nosotros" class="boton" style="color: black;font-size: large;">ver más</a>
