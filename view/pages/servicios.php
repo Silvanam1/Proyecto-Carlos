@@ -209,6 +209,7 @@
             </div>
 
         </section>
+        <link rel="stylesheet" href="../../general.css">
         <script src="https://kit.fontawesome.com/f3c3af2199.js" crossorigin="anonymous"></script>
         <script>
             var coll = document.getElementsByClassName("collapsible");
@@ -241,7 +242,7 @@
             }
             
         </script>
-    <link rel="stylesheet" href="../../general.css">
+    
     <?php
     require('../shell/footer.php');
     ?>

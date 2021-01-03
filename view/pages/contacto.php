@@ -125,7 +125,7 @@ $hoy = date("F j, Y, g:i a");
       <label for="Lugar">Lugar</label>
     </div>
     <div class="col-75">
-      <select id="Lugar" name="Lugar" require>
+      <select id="Lugar" name="Lugar" require class="Lugar">
         <option value="Empresa"> Empresa </option>
         <option value="Privado"> Privado </option>
         <option value="Casa"> Casa </option>
@@ -138,7 +138,7 @@ $hoy = date("F j, Y, g:i a");
       <label for="nempresa">Nombre de la empresa </label>
     </div>
     <div class="col-75">
-      <input type="text" id="nempresa" name="nempresa" placeholder="Escribe el nombre de tu empresa..." require>
+      <input type="text" id="nempresa" name="nempresa" placeholder="Escribe el nombre de tu empresa..." require class="nempresa">
     </div>
   </div>
   <div class="row">
@@ -223,6 +223,18 @@ $hoy = date("F j, Y, g:i a");
           setTimeout(function(){ div.style.display = "none"; }, 600);
         }
       }
+
+      const selectElement = document.querySelector('.Lugar');
+
+      selectElement.addEventListener('change', (event) => {
+        console.log(selectElement);
+          const resultado = document.querySelector('.nempresa');
+          if(event.target.value!="Empresa"){
+            resultado.value = `${event.target.value}`;
+          }else{
+            resultado.value = `Escribe el nombre de tu empresa...`;
+          }
+      });
     </script>
     <?php
     require('../shell/footer.php');
