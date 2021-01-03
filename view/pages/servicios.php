@@ -25,8 +25,8 @@
                         <ul class="lista">
                             <li>
                             
-                            <button class="collapsible"><span class="negrita">ASESORAMIENTO TÉCNICO EN SISTEMAS DE SEGURIDAD ELECTRÓNICA Y CÁMARAS DE SEGURIDAD</span></button>
-                            <div class="content">
+                            <button class="collapsible" id="primeroBoton"><span class="negrita">ASESORAMIENTO TÉCNICO EN SISTEMAS DE SEGURIDAD ELECTRÓNICA Y CÁMARAS DE SEGURIDAD</span></button>
+                            <div class="content" id="primeroContenido">
                                 <p class="texto"> 
                                 Realizando un relevamiento teniendo en cuenta según lo que se evalué mediante un análisis de riesgo 
                                 del lugar a instalar, para empresas, edificios, sindicatos, municipalidades, Agro, concesionaria de 
@@ -213,12 +213,14 @@
         <script>
             var coll = document.getElementsByClassName("collapsible");
             var i;
-
             for (i = 0; i < coll.length; i++) {
+                if (i==0) {
+                    firstCollapsible(coll[i]);
+                }
                 collapsible(coll);
             }
             function collapsible(coll) {
-                coll[i].addEventListener("click", function() {
+                    coll[i].addEventListener("click", function() {
                     this.classList.toggle("active");
                     var content = this.nextElementSibling;
                     if (content.style.maxHeight){
@@ -228,6 +230,16 @@
                     } 
                 });
             }
+            function firstCollapsible(coll) {
+                    coll.classList.toggle("active");
+                    var content = coll.nextElementSibling;
+                    if (content.style.maxHeight){
+                    content.style.maxHeight = null;
+                    } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    } 
+            }
+            
         </script>
     <?php
     require('../shell/footer.php');
