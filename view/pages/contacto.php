@@ -1,6 +1,7 @@
 <?php
 $enviado = 0;
 $hoy = date("F j, Y, g:i a");
+
   if(
     isset($_POST["nombre"]) &&
     isset($_POST["Apellido"]) &&
@@ -9,28 +10,39 @@ $hoy = date("F j, Y, g:i a");
     isset($_POST["mensaje"]) &&
     isset($_POST["Localidad"]) &&
     isset($_POST["Departamento"])
-      ){
-    //$enviado = 1;
-    $emailDimver = "ventas@dimver.com.ar";
-    $to = $emailDimver;
-    $subject = "Consulta desde el sitio web". $hoy;
-    $contenido = "Nombre: ".$_POST["nombre"]." ".$_POST["Apellido"]."\n";
-    $contenido .= "Lugar: ".$_POST["Lugar"]."\n";
-    $contenido .= "Nombre de la Empresa: ".$_POST["nempresa"]."\n";
-    $contenido .= "Localidad: ".$_POST["Localidad"]."\n";
+      )
+  {
+      if(
+        $_POST["nombre"]!="" &&
+        $_POST["Apellido"]!="" &&
+        $_POST["email"]!="" &&
+        $_POST["mensaje"]!="" &&
+        $_POST["Localidad"]!="" 
+        )
+      {
+        //$enviado = 1;
+        $emailDimver = "ventas@dimver.com.ar";
+        $to = $emailDimver;
+        $subject = "Consulta desde el sitio web". $hoy;
+        $contenido = "Nombre: ".$_POST["nombre"]." ".$_POST["Apellido"]."\n";
+        $contenido .= "Lugar: ".$_POST["Lugar"]."\n";
+        $contenido .= "Nombre de la Empresa: ".$_POST["nempresa"]."\n";
+        $contenido .= "Localidad: ".$_POST["Localidad"]."\n";
+        
+        $contenido .= "Email: ".$_POST["email"]."\n\n";
+        $contenido .= "Comentario: ".$_POST["mensaje"]."\n\n";
+        $header = "From: sistema@dimver.com.ar\nReply-To:".$emailDimver."\n";
+        $header .= "Mime-Version: 1.0\n";
+        $header .= "Content-Type: text/plain";
+        if(mail($to, $subject, $contenido ,$header)){
+          $enviado = 1;
+        }else{
+          $enviado = 2;
+        }
+      }else{
+        $enviado = 3;
+      }
     
-    $contenido .= "Email: ".$_POST["email"]."\n\n";
-    $contenido .= "Comentario: ".$_POST["mensaje"]."\n\n";
-    $header = "From: sistema@dimver.com.ar\nReply-To:".$emailDimver."\n";
-    $header .= "Mime-Version: 1.0\n";
-    $header .= "Content-Type: text/plain";
-    //echo($contenido);
-    if(mail($to, $subject, $contenido ,$header)){
-      //echo "Mail Enviado.";
-      $enviado = 1;
-    }else{
-      $enviado = 2;
-    }
   }elseif(
     isset($_POST["nombre"]) ||
     isset($_POST["Apellido"]) ||
@@ -56,8 +68,33 @@ $hoy = date("F j, Y, g:i a");
 <body>
     <?php
     require('../shell/header.php');
-    //echo($enviado);
-    //echo("hoy".$hoy);
+    ?>
+    <?php 
+      if($enviado == 2){
+        ?>
+        <div class="alert">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          ERROR AL ENVIAR
+        </div>
+
+        <?php
+      }elseif($enviado == 3){
+        ?>
+
+      <div class="alert warning">
+        <span class="closebtn">&times;</span>  
+        FALTAN DATOS
+      </div>
+
+        <?php
+      }elseif ($enviado == 1) {
+        ?>
+        <div class="alert success">
+          <span class="closebtn">&times;</span>  
+          ENVIADO CORRECTAMENTE
+        </div>
+        <?php
+      }
     ?>
 
 <br>
@@ -175,6 +212,18 @@ $hoy = date("F j, Y, g:i a");
 -->
     </section>
     <link rel="stylesheet" href="..\..\general.css">
+    <script>
+      var close = document.getElementsByClassName("closebtn");
+      var i;
+
+      for (i = 0; i < close.length; i++) {
+        close[i].onclick = function(){
+          var div = this.parentElement;
+          div.style.opacity = "0";
+          setTimeout(function(){ div.style.display = "none"; }, 600);
+        }
+      }
+    </script>
     <?php
     require('../shell/footer.php');
     ?>
