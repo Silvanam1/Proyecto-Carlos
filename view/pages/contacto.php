@@ -24,7 +24,7 @@ $hoy = date("F j, Y, g:i a");
     $header = "From: sistema@dimver.com.ar\nReply-To:".$emailDimver."\n";
     $header .= "Mime-Version: 1.0\n";
     $header .= "Content-Type: text/plain";
-    echo($contenido);
+    //echo($contenido);
     if(mail($to, $subject, $contenido ,$header)){
       //echo "Mail Enviado.";
       $enviado = 1;
