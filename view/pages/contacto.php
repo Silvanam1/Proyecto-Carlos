@@ -1,15 +1,63 @@
+<?php
+$enviado = 0;
+$hoy = date("F j, Y, g:i a");
+  if(
+    isset($_POST["nombre"]) &&
+    isset($_POST["Apellido"]) &&
+    isset($_POST["Lugar"]) &&
+    isset($_POST["email"]) &&
+    isset($_POST["mensaje"]) &&
+    isset($_POST["Localidad"]) &&
+    isset($_POST["Departamento"])
+      ){
+    //$enviado = 1;
+    $emailDimver = "ventas@dimver.com.ar";
+    $to = $emailDimver;
+    $subject = "Consulta desde el sitio web". $hoy;
+    $contenido = "Nombre: ".$_POST["nombre"]." ".$_POST["Apellido"]."\n";
+    $contenido .= "Lugar: ".$_POST["Lugar"]."\n";
+    $contenido .= "Nombre de la Empresa: ".$_POST["nempresa"]."\n";
+    $contenido .= "Localidad: ".$_POST["Localidad"]."\n";
+    
+    $contenido .= "Email: ".$_POST["email"]."\n\n";
+    $contenido .= "Comentario: ".$_POST["mensaje"]."\n\n";
+    $header = "From: sistema@dimver.com.ar\nReply-To:".$emailDimver."\n";
+    $header .= "Mime-Version: 1.0\n";
+    $header .= "Content-Type: text/plain";
+    echo($contenido);
+    if(mail($to, $subject, $contenido ,$header)){
+      //echo "Mail Enviado.";
+      $enviado = 1;
+    }else{
+      $enviado = 2;
+    }
+  }elseif(
+    isset($_POST["nombre"]) ||
+    isset($_POST["Apellido"]) ||
+    isset($_POST["lugar"]) ||
+    isset($_POST["nempresa"]) ||
+    isset($_POST["email"]) || 
+    isset($_POST["mensaje"]) || 
+    isset($_POST["Localidad"]) ||
+    isset($_POST["Departamento"]
+    ) ){
+    $enviado = 3;
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contacto.css">
-    <link rel="stylesheet" href="..\..\general.css">
+
     <title>Contacto</title>
 </head>
 <body>
     <?php
     require('../shell/header.php');
+    //echo($enviado);
+    //echo("hoy".$hoy);
     ?>
 
 <br>
@@ -18,7 +66,7 @@
     <!--La idea es agregar luego el  Afip “Q.R”-->
   <br>
 <div class="container">
-  <form action="/action_page.php">
+  <form action="" method="post">
   <div class="row">
     <div class="col-25">
       <label for="nombre">Nombre</label>
@@ -126,7 +174,7 @@
         </div>
 -->
     </section>
-
+    <link rel="stylesheet" href="..\..\general.css">
     <?php
     require('../shell/footer.php');
     ?>

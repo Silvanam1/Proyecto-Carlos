@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../general.css">
+
     <link rel="stylesheet" href="servicios.css">
     <title>Servicios</title>
 </head>
@@ -241,6 +241,7 @@
             }
             
         </script>
+    <link rel="stylesheet" href="../../general.css">
     <?php
     require('../shell/footer.php');
     ?>
