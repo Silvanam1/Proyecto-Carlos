@@ -24,7 +24,7 @@
       <label for="nombre">Nombre</label>
     </div>
     <div class="col-75">
-      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..">
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre.." require>
     </div>
   </div>
   <div class="row">
@@ -32,7 +32,7 @@
       <label for="Apellido">Apellido</label>
     </div>
     <div class="col-75">
-      <input type="text" id="Apellido" name="Apellido" placeholder="Escribe tu apellido">
+      <input type="text" id="Apellido" name="Apellido" placeholder="Escribe tu apellido" require>
     </div>
   </div>
   <div class="row">
@@ -40,7 +40,7 @@
       <label for="Lugar">Lugar</label>
     </div>
     <div class="col-75">
-      <select id="Lugar" name="Lugar">
+      <select id="Lugar" name="Lugar" require>
         <option value="Empresa"> Empresa </option>
         <option value="Privado"> Privado </option>
         <option value="Casa"> Casa </option>
@@ -53,7 +53,7 @@
       <label for="nempresa">Nombre de la empresa </label>
     </div>
     <div class="col-75">
-      <input type="text" id="nempresa" name="nempresa" placeholder="Escribe el nombre de tu empresa...">
+      <input type="text" id="nempresa" name="nempresa" placeholder="Escribe el nombre de tu empresa..." require>
     </div>
   </div>
   <div class="row">
@@ -61,7 +61,15 @@
       <label for="Localidad">Localidad</label>
     </div>
     <div class="col-75">
-      <input type="text" id="Localidad" name="Localidad" placeholder="Escribe la localidad..">
+      <input type="text" id="Localidad" name="Localidad" placeholder="Escribe la localidad.." require>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="email" id="email" name="email" class="estiloEmail" placeholder="Ingrese un email valido para recibir una respuesta" require>
     </div>
   </div>
   <div class="row">
@@ -69,7 +77,7 @@
       <label for="mensaje">Mensaje</label>
     </div>
     <div class="col-75">
-      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje.." style="height:200px"></textarea>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje.." style="height:200px" require></textarea>
     </div>
   </div>
   <div class="row">
