@@ -204,6 +204,16 @@
                         </ul>
 
                     </p>
+                    <br>
+                    <h2>Cumpliendo las Normas vigentes </h2>
+                    <img src="../../img/imagenes/iram.png" alt="normas.iram">
+                    <p class="negrita" >ESTACIÓN DE MONITOREO. Homologada bajo Norma IRAM 4174</p>
+                    <img src="../../img/imagenes/gcba.png" alt="habilidadporGCBA">
+                    <p class="negrita">Empresa habilitada por el GCBA - LEY N°5688</p><br>
+                    <img src="../../img/imagenes/cemara.png" alt="CEMARA">
+                    <img src="../../img/imagenes/pdp.png" alt="CEMARA">
+                    <img src="../../img/imagenes/foroseguridad.png" alt="forodeseguridad"> <br>
+
                 </article>
 
             </div>
