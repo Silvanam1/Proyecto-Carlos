@@ -13,7 +13,7 @@
     <?php
     require('view/shell/header.php');
     ?>
-    <img src="img\imagenes\s-l1600plus.jpg" class="banner">
+    <img src="img\imagenes\s-l1600plus.jpg" class="banner" alt="banner ciudad hermosa de noche">
     <div>
         <section class="card" id="nosotros">
             <div>
@@ -60,6 +60,14 @@
     <article class="card" id="Clientes" style="display:block;">
 
     <h2 class="tituloCard">Nuestros Clientes</h2>
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap-reverse;"><!-- nuestros clientes -->
+    <p style="border: 1px solid black;
+    border-radius:2px; width:400px;text-align: justify; padding: 5%;line-height: 200%; font-size:large;">
+        Se omiten citar, del listado de alrededor de 15.000 Abonados, que se encuentra instalado 
+        el sistema de monitoreo, en viviendas particulares, el fin de seguir la política de la 
+        empresa, para preservar su privacidad e integridad física.
+    </p>
+    <div>
     <div id="carrusel" class="slideshow-container">
     
 <?php
@@ -79,7 +87,7 @@
                 } ?>
                 vertical-align: middle; width:100%;">
                 
-                <img src="img\empresas\<?php echo($value);?>" style="width:300px;">
+                <img src="img\empresas\<?php echo($value);?>" style="width:300px;" alt="imagenes de logos de clientes, para mas detalles ir a la pagina clientes">
                 </div>
 
 <?php
@@ -105,8 +113,9 @@ foreach ($files as $key => $value) {
     <?php
 }
 ?>
+        
         </div>
-
+        </div>
     </article>
     </section>
 

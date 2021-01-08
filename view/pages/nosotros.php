@@ -48,7 +48,7 @@
             </div>
  
             <div>
-                <img src="../../img/imagenes/fondo4full.jpg" alt="" class="imagenCard" >
+                <img src="../../img/imagenes/fondo4full.jpg" alt="hermoso paisaje con un perro" class="imagenCard" >
             </div>
 
         </section>

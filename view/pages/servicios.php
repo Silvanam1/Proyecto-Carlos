@@ -71,7 +71,7 @@
                             </li>
                             <li>
 
-                            <button class="collapsible"><span class="negrita">PULSADORES DE PÁNICO</span></button>
+                            <button class="collapsible"><span class="negrita">PULSADORES DE PÁNICO </span> Para comercios, oficinas, financieras, y rubro que lo solicite.</button>
                             <div class="content">
                                 <p class="texto">
                                 <span class="negrita">Para Víctimas de violencia de género</span>, en el caso de ser abonado 
@@ -201,18 +201,44 @@
                             </div>
                             
                             </li>
+                            <li>
+
+                            <button class="collapsible"><span class="negrita">CUMPLIMIENTO DE LAS NORMAS VIGENTES</span></button>
+                            <div class="content">
+                                <section class="texto">
+                                <article class="card" style="background-color: white; justify-content:center;display:grid">
+                                    
+                                    <h3 class="negrita" >ESTACIÓN DE MONITOREO. Homologada bajo Norma IRAM 4174</h3>
+                                    <figure style="margin-left: 30%;">
+                                        <img src="../../img/imagenes/iram.png" alt="normas iram">
+                                    </figure>
+                                </article>
+                                <article class="card" style="background-color: white;justify-content:center;display:grid">
+                                    
+                                    <h3 class="negrita">Empresa habilitada por el GCBA - LEY N°5688</h3>
+                                    <br>
+                                    <figure style="margin-left: 30%;">
+                                        <img src="../../img/imagenes/gcba.png" alt="habilidadpor GCBA">
+                                    </figure>
+                                </article>
+                                <article class="card" style="background-color: white; flex-wrap: wrap; justify-content: center;">
+                                    <figure>
+                                        <img src="../../img/imagenes/cemara.png" alt="CEMARA" class="imagenCard">
+                                    </figure>
+                                    <figure>
+                                        <img src="../../img/imagenes/pdp.png" alt="direccion nacional de proteccion de datos personales" class="imagenCard">
+                                    </figure>
+                                    <figure>
+                                        <img src="../../img/imagenes/foroseguridad.png" alt="foro de seguridad" class="imagenCard"> 
+                                    </figure>
+                                </article>
+                                <br>
+                                </section>
+                            </div>
+
+                            </li>
                         </ul>
 
-                    </p>
-                    <br>
-                    <h2>Cumpliendo las Normas vigentes </h2>
-                    <img src="../../img/imagenes/iram.png" alt="normas.iram">
-                    <p class="negrita" >ESTACIÓN DE MONITOREO. Homologada bajo Norma IRAM 4174</p>
-                    <img src="../../img/imagenes/gcba.png" alt="habilidadporGCBA">
-                    <p class="negrita">Empresa habilitada por el GCBA - LEY N°5688</p><br>
-                    <img src="../../img/imagenes/cemara.png" alt="CEMARA">
-                    <img src="../../img/imagenes/pdp.png" alt="CEMARA">
-                    <img src="../../img/imagenes/foroseguridad.png" alt="forodeseguridad"> <br>
 
                 </article>
 

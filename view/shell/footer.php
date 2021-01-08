@@ -51,7 +51,7 @@
             </ul>
         </article>
         <article>
-            <img src="http://localhost/Proyecto-Carlos/img/imagenes/QRFiscal.JPG" alt="">
+            <img src="http://localhost/Proyecto-Carlos/img/imagenes/QRFiscal.JPG" alt="codigo qr fiscal">
         </article>
     </section>
 </footer>
