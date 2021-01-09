@@ -16,12 +16,12 @@
                 <li>
                     <ul>
                         <li>
-                        <a href="https://api.whatsapp.com/send?phone=5491533326375" class="btn verde">
+                        <a href="https://api.whatsapp.com/send?phone=5491133326375" class="btn verde">
                         <i class="fab fa-whatsapp"></i></a> 1533326375
                         
                         </li>
                         <li>
-                        <a href="https://api.whatsapp.com/send?phone=5491533326375" class="btn verde">
+                        <a href="https://api.whatsapp.com/send?phone=5491126442919" class="btn verde">
                         <i class="fab fa-whatsapp"></i></a> 1526442919
                         
                         </li>                       
@@ -34,7 +34,7 @@
                     <ul>
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i> 
-                             4629-5298 - Contacto telefónico de lunes a viernes de 8 a 17hs.
+                             4629-5298 - Contacto telefónico de Lunes a Viernes de 8 a 17 Hs.
                         </li>                     
                     </ul>
                 </li>
@@ -51,7 +51,7 @@
             </ul>
         </article>
         <article>
-            <img src="http://localhost/Proyecto-Carlos/img/imagenes/QRFiscal.JPG" alt="codigo qr fiscal">
+            <img src="http://localhost/Proyecto-Carlos/img/imagenes/QRFiscal.JPG" alt="Código QR Fiscal">
         </article>
     </section>
 </footer>

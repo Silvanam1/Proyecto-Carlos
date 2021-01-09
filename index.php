@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
     <?php
     require('view/shell/header.php');
     ?>
-    <img src="img\imagenes\s-l1600plus.jpg" class="banner" alt="banner ciudad hermosa de noche">
+    <img src="img\imagenes\s-l1600plus.jpg" class="banner" alt="Banner Ciudad hermosa de noche">
     <div>
         <section class="card" id="nosotros">
             <div>
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div>
-                <img src="img\imagenes\fondo4full.jpg" alt="" class="imagenCard" >
+                <img src="img\imagenes\fondo4full.jpg" alt="Paisaje de una ciudad con un perro" class="imagenCard" >
             </div>
         </section>
         <section class="card" id="Servicios" style="">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div>
-                <img src="img\imagenes\servicios250x200full.jpg" alt="" class="imagenCard" >
+                <img src="img\imagenes\servicios250x200full.jpg" alt="Imágen representativa de conectividad" class="imagenCard" >
             </div>
         </section>
     </div> 

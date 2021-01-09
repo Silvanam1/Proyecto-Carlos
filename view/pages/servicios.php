@@ -210,7 +210,7 @@
                                     
                                     <h3 class="negrita" >ESTACIÓN DE MONITOREO. Homologada bajo Norma IRAM 4174</h3>
                                     <figure style="margin-left: 30%;">
-                                        <img src="../../img/imagenes/iram.png" alt="normas iram">
+                                        <img src="../../img/imagenes/iram.png" alt="Normas IRAM">
                                     </figure>
                                 </article>
                                 <article class="card" style="background-color: white;justify-content:center;display:grid">
@@ -226,10 +226,10 @@
                                         <img src="../../img/imagenes/cemara.png" alt="CEMARA" class="imagenCard">
                                     </figure>
                                     <figure>
-                                        <img src="../../img/imagenes/pdp.png" alt="direccion nacional de proteccion de datos personales" class="imagenCard">
+                                        <img src="../../img/imagenes/pdp.png" alt="Dirección Nacional de protección de datos personales" class="imagenCard">
                                     </figure>
                                     <figure>
-                                        <img src="../../img/imagenes/foroseguridad.png" alt="foro de seguridad" class="imagenCard"> 
+                                        <img src="../../img/imagenes/foroseguridad.png" alt="Foro de seguridad" class="imagenCard"> 
                                     </figure>
                                 </article>
                                 <br>

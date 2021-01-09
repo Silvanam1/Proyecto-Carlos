@@ -109,7 +109,7 @@ $hoy = date("F j, Y, g:i a");
       <label for="nombre">Nombre</label>
     </div>
     <div class="col-75">
-      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre.." require>
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" require>
     </div>
   </div>
   <div class="row">
@@ -138,7 +138,7 @@ $hoy = date("F j, Y, g:i a");
       <label for="nempresa">Nombre de la empresa </label>
     </div>
     <div class="col-75">
-      <input type="text" id="nempresa" name="nempresa" placeholder="Escribe el nombre de tu empresa..." require class="nempresa">
+      <input type="text" id="nempresa" name="nempresa" placeholder="Escribe el nombre de tu empresa" require class="nempresa">
     </div>
   </div>
   <div class="row">
@@ -146,15 +146,31 @@ $hoy = date("F j, Y, g:i a");
       <label for="Localidad">Localidad</label>
     </div>
     <div class="col-75">
-      <input type="text" id="Localidad" name="Localidad" placeholder="Escribe la localidad.." require>
+      <input type="text" id="Localidad" name="Localidad" placeholder="Escribe la localidad" require>
     </div>
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="email">Email</label>
+      <label for="email">Mail</label>
     </div>
     <div class="col-75">
-      <input type="email" id="email" name="email" class="estiloEmail" placeholder="Ingrese un email valido para recibir una respuesta" require>
+      <input type="email" id="email" name="email" class="estiloEmail" placeholder="Ingrese un mail válido para recibir una respuesta" require>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Teléfono">Teléfono</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Teléfono" name="Teléfono" placeholder="Escribe tu teléfono" require>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="Celular">Celular</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Celular" name="Celular" placeholder="Escribe tu celular" require>
     </div>
   </div>
   <div class="row">
@@ -197,10 +213,10 @@ $hoy = date("F j, Y, g:i a");
                 <h2 class="tituloCard">Datos de Contacto</h2>
                 <div class="texto margin-left" style="text-align: left">
                   <p>BLANCO ENCALADA 1983, CASTELAR. (CP 1712) </p>
-                  <p>TELÉFONOS: 4628-6907 / 4629-5298</p>
+                  <p>TELÉFONOS: 4629-5298 - Contacto telefónico de Lunes a Viernes de 8 a 17 Hs. </p>
                   <p>CELULAR: 153-332-6375</p>
                   <p>ALTERNATIVO: 152-644-2919</p>
-                  <p>CORREO ELECTRÓNICO: DIMVER2020@GMAIL.COM</p>
+                  <p>CORREO ELECTRÓNICO: VENTAS@DIMVER.COM.AR </p>
                 </div>
             </article>
 
