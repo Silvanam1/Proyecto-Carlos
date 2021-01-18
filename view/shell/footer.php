@@ -5,7 +5,7 @@
             <h3 class="subrayado">Contáctenos</h3>
             <ul>
                 <li>
-                    <a href="https://www.google.com.ar/maps/place/Gral.+Manuel+Blanco+Encalada+1983,+B1712CFE+Castelar,+Provincia+de+Buenos+Aires/@-34.6517544,-58.6359088,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc7582fa36289:0x42a45bc834b24483!8m2!3d-34.6517588!4d-58.6337201" class="btn azul">
+                    <a href="https://www.google.com.ar/maps/place/Gral.+Manuel+Blanco+Encalada+1983,+B1712CFE+Castelar,+Provincia+de+Buenos+Aires/@-34.6517544,-58.6359088,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc7582fa36289:0x42a45bc834b24483!8m2!3d-34.6517588!4d-58.6337201" class="btn azul" target="_blank">
                         <i class="fa fa-map"></i>
                     </a>
                     BLANCO ENCALADA 1983, CASTELAR, CP: 1712
@@ -16,12 +16,12 @@
                 <li>
                     <ul>
                         <li>
-                        <a href="https://api.whatsapp.com/send?phone=5491133326375" class="btn verde">
+                        <a href="https://api.whatsapp.com/send?phone=5491133326375" class="btn verde" target="_blank">
                         <i class="fab fa-whatsapp"></i></a> 1533326375
                         
                         </li>
                         <li>
-                        <a href="https://api.whatsapp.com/send?phone=5491126442919" class="btn verde">
+                        <a href="https://api.whatsapp.com/send?phone=5491126442919" class="btn verde" target="_blank">
                         <i class="fab fa-whatsapp"></i></a> 1526442919
                         
                         </li>                       
@@ -43,9 +43,9 @@
                 </li>
                 <li>
                     <ul>
-                        <li><a href="mailto:ventas@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>ventas@dimver.com.ar</li>
-                        <li><a href="mailto:administracion@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>administracion@dimver.com.ar</li>
-                        <li><a href="mailto:soporte-tecnico@dimver.com.ar" class="btn azul"><i class="fas fa-envelope-open-text"></i></a>soporte-tecnico@dimver.com.ar</li>
+                        <li><a href="mailto:ventas@dimver.com.ar" class="btn azul" target="_blank"><i class="fas fa-envelope-open-text"></i></a>ventas@dimver.com.ar</li>
+                        <li><a href="mailto:administracion@dimver.com.ar" class="btn azul" target="_blank"><i class="fas fa-envelope-open-text"></i></a>administracion@dimver.com.ar</li>
+                        <li><a href="mailto:soporte-tecnico@dimver.com.ar" class="btn azul" target="_blank"><i class="fas fa-envelope-open-text"></i></a>soporte-tecnico@dimver.com.ar</li>
                     </ul>
                 </li>
             </ul>

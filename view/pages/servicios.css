@@ -40,3 +40,8 @@ ul{
 .flexServicios{
   background-color: white; flex-wrap: wrap; flex-direction: column; justify-content: space-around;
 }
+@media (min-width: 320px) and (max-width: 600px) {
+  .img{
+    width: 150px; height: 150px;
+  }
+}

@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo2bis.ico">
+  <title>DIMVER Seguridad electronica personalizada</title>
+
+  <meta name="robots" content="all"/>
+  <meta name="googlebot" content="all" />  
+<meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../general.css">
     <link rel="stylesheet" href="nuestrosClientes.css">

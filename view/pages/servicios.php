@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo2bis.ico">
+  <title>DIMVER Seguridad electronica personalizada</title>
+
+  <meta name="robots" content="all"/>
+  <meta name="googlebot" content="all" />  
+<meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="servicios.css">
@@ -14,13 +20,12 @@
         <section class="card" id="Servicios">
             <div>
                 <article class="contenido">
-                    <h2 class="tituloCard">Servicios</h2>
+                    <h2 class="tituloCard">SISTEMAS ADICIONALES</h2>
                     <p class="texto">Los sistemas adicionales aumentan el nivel de seguridad de la alarma de intrusión. 
-                        Al momento de diseñar un sistema de alarma de intrusión, tenido en cuenta sus 
-                        requerimientos, pero los mismos pueden cambiar, ya sea por modificaciones en el 
-                        exterior de la propiedad o en el vecindario, por remodelaciones en el interior, 
-                        por el valor de su contenido o el riesgo de intrusión, además de otros factores que 
-                        puedan afectar el grado de seguridad previsto.</p>
+                    Al momento de diseñar un sistema de alarma de intrusión, tenido en cuenta sus requerimientos, pero los
+                     mismos pueden cambiar, ya sea por modificaciones en el exterior de la propiedad o en el vecindario, 
+                     por remodelaciones en el interior, por el valor de su contenido o el riesgo de intrusión, además de 
+                     otros factores que puedan afectar el grado de seguridad previsto.</p>
                     <p class="texto"> 
                         <ul class="lista">
                             <li>
@@ -74,25 +79,26 @@
                             <button class="collapsible"><span class="negrita">PULSADORES DE PÁNICO </span> Para comercios, oficinas, financieras, y rubro que lo solicite.</button>
                             <div class="content">
                                 <p class="texto">
-                                <span class="negrita">Para Víctimas de violencia de género</span>, en el caso de ser abonado 
-                                y se tenga una perimetral vigente, y se viole la misma, con el requisito acreditar mediante oficio 
-                                judicial y firmado por el magistrado que interviniente, y notificación de la dependencia policial 
-                                que tomo intervención. Una vez cumplido con los requisitos nuestra empresa DIMVER (SIN COSTO ALGUNO),
-                                realizara la instalación en el lugar y equipamiento en (comodato), siempre pensando en resguardar la
-                                integridad física , Psicológica de la persona y poder ayudar ante una situación de esta índole, 
-                                acortando los tiempos, no viéndolo como una operación comercial sino un acto humano por esta empresa
-                                y su trayectoria atreves de los años, ofreciéndole un operador de turno que una vez que se recepcióne
-                                la señal de pánico, se procederá de forma automática a la activación del protocolo de esta empresa,
-                                se dará conocimiento al Centro de despacho y emergencias 911, enviando móvil de la empresa al lugar
-                                (Este ultimo se posee un costo de abono mensual). –
+                                <span class="negrita">Para Víctimas de violencia de género</span>en el caso de ser abonado y 
+                                se tenga una perimetral vigente, y se viole la misma, con el requisito acreditar mediante 
+                                oficio judicial y firmado por el magistrado que interviniente, y notificación de la dependencia 
+                                policial que tomo intervención. Una vez cumplido con los requisitos nuestra empresa DIMVER 
+                                (SIN COSTO ALGUNO), realizara la instalación en el lugar y equipamiento en (comodato), siempre 
+                                pensando en resguardar la integridad física , Psicológica de la persona y poder ayudar ante una 
+                                situación de esta índole, acortando los tiempos, no viéndolo como una operación comercial sino 
+                                un acto humano por esta empresa y su trayectoria atreves de los años, ofreciéndole un operador 
+                                de turno que una vez que se recepcióne la señal de pánico, se procederá de forma automática a 
+                                la activación del protocolo de esta empresa, se dará conocimiento al Centro de despacho y 
+                                emergencias 911, enviando móvil de la empresa al lugar
                                 </p>
                                 <p class="texto">
-                                <span class="negrita">Pulsadores de pánico para personas de avanzada edad</span>, nuestra empresa Dimver (SIN COSTO),
-                                se realizara la instalación en el lugar y equipamiento en (comodato), con el fin de resguardar la 
-                                integridad física de la persona teniendo en cuenta, que en el lugar se instalara un pulsador con 
-                                tres botones, que incluirá la comunicación de forma directa con el operador de turno, tendrá  médico,
-                                bomberos  y Policía, de forma inmediata al lugar en el caso que se necesario y fuera evaluado por el
-                                operador de turno de esta empresa. Mediante comunicación con el 911.   
+                                <span class="negrita">Pulsadores de pánico para personas de avanzada edad,</span> nuestra empresa Dimver 
+                                (SIN COSTO), se realizara la instalación en el lugar y equipamiento en (comodato), con el fin de 
+                                resguardar la integridad física de la persona teniendo en cuenta, que en el lugar se instalara un 
+                                pulsador con tres botones, que incluirá la comunicación de forma directa con el operador de turno, 
+                                tendrá médico, bomberos y Policía, de forma inmediata al lugar en el caso que se necesario y fuera 
+                                evaluado por el operador de turno de esta empresa. Mediante comunicación con el 911. (Teniendo en 
+                                cuenta que el instructivo se realizara mediante pictografías) 
                                 </p>
                             </div>
                             
@@ -206,30 +212,30 @@
                             <button class="collapsible"><span class="negrita">CUMPLIMIENTO DE LAS NORMAS VIGENTES</span></button>
                             <div class="content">
                                 <section class="texto">
-                                <article class="card" style="background-color: white; justify-content:center;display:grid">
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
                                     
                                     <h3 class="negrita" >ESTACIÓN DE MONITOREO. Homologada bajo Norma IRAM 4174</h3>
                                     <figure style="margin-left: 30%;">
-                                        <img src="../../img/imagenes/iram.png" alt="Normas IRAM">
+                                        <img src="../../img/imagenes/iram.png" alt="Normas IRAM" class="img">
                                     </figure>
                                 </article>
-                                <article class="card" style="background-color: white;justify-content:center;display:grid">
+                                <article class="" style="background-color: white;justify-content:center;display:grid">
                                     
                                     <h3 class="negrita">Empresa habilitada por el GCBA - LEY N°5688</h3>
                                     <br>
                                     <figure style="margin-left: 30%;">
-                                        <img src="../../img/imagenes/gcba.png" alt="habilidadpor GCBA">
+                                        <img src="../../img/imagenes/gcba.png" alt="habilidadpor GCBA" class="img">
                                     </figure>
                                 </article>
                                 <article class="card" style="background-color: white; flex-wrap: wrap; justify-content: center;">
                                     <figure>
-                                        <img src="../../img/imagenes/cemara.png" alt="CEMARA" class="imagenCard">
+                                        <img src="../../img/imagenes/cemara.png" alt="CEMARA" class="imagenCard img">
                                     </figure>
                                     <figure>
-                                        <img src="../../img/imagenes/pdp.png" alt="Dirección Nacional de protección de datos personales" class="imagenCard">
+                                        <img src="../../img/imagenes/pdp.png" alt="Dirección Nacional de protección de datos personales" class="imagenCard img">
                                     </figure>
                                     <figure>
-                                        <img src="../../img/imagenes/foroseguridad.png" alt="Foro de seguridad" class="imagenCard"> 
+                                        <img src="../../img/imagenes/foroseguridad.png" alt="Foro de seguridad" class="imagenCard img"> 
                                     </figure>
                                 </article>
                                 <br>

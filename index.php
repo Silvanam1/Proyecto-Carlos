@@ -2,7 +2,16 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo2bis.ico">
+  <title>DIMVER Seguridad electronica personalizada</title>
+
+  <meta name="robots" content="all"/>
+  <meta name="googlebot" content="all" />  
+<meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistemas de Seguridad Electrónica adaptados a su necesidad, con la premisa de resguardar la integridad de las personas, su grupo familiar y bienes materiales"> 
+
+  <meta name="keywords" content="DIMVER,dimver,seguridad,camaras vigilancia,seguridad electronica, alarma monitoreada">
 
     <link rel="stylesheet" href="carrusell.css">
     <script src="https://kit.fontawesome.com/f3c3af2199.js" crossorigin="anonymous"></script>
@@ -19,15 +28,19 @@
             <div>
                 <article class="contenido">
                     <h2 class="tituloCard"> Nosotros</h2>
-                    <p class="texto"> <span class="negrita">DIMVER:</span> Es una empresa familiar que cuenta con el respaldo en su 
-                        capacidad y experiencia, para colaborar desde la concepción del proyecto hasta 
-                        el mantenimiento del mismo. Priorizamos al desarrollar nuestros sistemas de 
-                        seguridad electrónica adaptados a su necesidad, con el fin resguardar la 
-                        integridad de las personas, grupo familiar sus bienes materiales, sobre todo 
-                        cumpliendo con las normativas vigentes.</p>
+                    <p class="texto"> <span class="negrita">DIMVER:</span>somos una empresa familiar que cuenta con respaldo 
+                    –en capacidad y experiencia-, para colaborar desde la concepción del proyecto hasta el mantenimiento del mismo.
+                    </p><p class="texto"> 
+                    Desarrollamos Sistemas de Seguridad Electrónica adaptados a su necesidad, con la premisa de resguardar la 
+                    integridad de las personas, su grupo familiar y bienes materiales.
+                    </p><p class="texto">
+                    Esta empresa con más de 30 años de trayectoria en el mercado se encuentra homologada bajo las 
+                    normativas vigentes por medio de Normas IRAM 4174 y su habilitación por el Gobierno de la Ciudad de
+                     Buenos Aires GBA Ley 5.688.
+                    </p>
                 </article>
                 <div class="contenido">
-                    <a href="#nosotros" class="boton" style="color: black;font-size: large;">ver más</a>
+                    <a href="#nosotros" class="boton" style="color: black;font-size: large;" rel="canonical">ver más</a>
                 </div>
             </div>
             <div>
@@ -46,7 +59,7 @@
                         puedan afectar el grado de seguridad previsto.</p>
                 </article>
                 <div class="contenido">
-                    <a href="#Servicios" class="boton" style="color: black;font-size: large;">ver más</a>
+                    <a href="#Servicios" class="boton" style="color: black;font-size: large;" rel="canonical">ver más</a>
                 </div>
             </div>
             <div>

@@ -28,7 +28,12 @@ $hoy = date("F j, Y, g:i a");
         $contenido .= "Lugar: ".$_POST["Lugar"]."\n";
         $contenido .= "Nombre de la Empresa: ".$_POST["nempresa"]."\n";
         $contenido .= "Localidad: ".$_POST["Localidad"]."\n";
-        
+        if(isset($_POST["partido"])){
+          $contenido .= "Partido: ".$_POST["partido"]."\n";
+        }
+        if(isset($_POST["Telefono"])){
+          $contenido .= "Teléfono: ".$_POST["Telefono"]."\n";
+        }
         $contenido .= "Email: ".$_POST["email"]."\n\n";
         $contenido .= "Comentario: ".$_POST["mensaje"]."\n\n";
         $header = "From: sistema@dimver.com.ar\nReply-To:".$emailDimver."\n";
@@ -60,6 +65,12 @@ $hoy = date("F j, Y, g:i a");
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo2bis.ico">
+  <title>DIMVER Seguridad electronica personalizada</title>
+
+  <meta name="robots" content="all"/>
+  <meta name="googlebot" content="all" />  
+<meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contacto.css">
 
@@ -151,6 +162,14 @@ $hoy = date("F j, Y, g:i a");
   </div>
   <div class="row">
     <div class="col-25">
+      <label for="partido">Partido</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="partido" name="partido" placeholder="Escribe el partido" require>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
       <label for="email">Mail</label>
     </div>
     <div class="col-75">
@@ -159,10 +178,10 @@ $hoy = date("F j, Y, g:i a");
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="Teléfono">Teléfono</label>
+      <label for="Telefono">Teléfono</label>
     </div>
     <div class="col-75">
-      <input type="text" id="Teléfono" name="Teléfono" placeholder="Escribe tu teléfono" require>
+      <input type="text" id="Telefono" name="Telefono" placeholder="Escribe tu teléfono" require>
     </div>
   </div>
   <div class="row">

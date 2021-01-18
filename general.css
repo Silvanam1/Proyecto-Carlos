@@ -15,9 +15,9 @@
         height: 190px;
     }
     #header img{
-        background-image: url("http://localhost/Proyecto-Carlos/img/imagenes/logo3solo.png");
-        height: 96px;
-        width: 227px;
+        background-image: url("http://dimver.com.ar/img/imagenes/logo3solo.png");
+        height: 90px;
+        width: 206px;
     }
     #footer{
     
@@ -47,9 +47,9 @@
         margin-left: 5%;
     }
     #header img{
-        background-image: url("http://localhost/Proyecto-Carlos/img/imagenes/logo3solo.png");
-        height: 96px;
-        width: 227px;
+        background-image: url("http://dimver.com.ar/img/imagenes/logo3solo.png");
+        height: 90px;
+        width: 206px;
     }
     #header nav{
         width: 65%;
@@ -82,7 +82,7 @@
 }
 @media (min-width: 1160px) {
     #header img{
-        background-image: url("http://localhost/Proyecto-Carlos/img/imagenes/isologo.png");
+        background-image: url("http://dimver.com.ar/img/imagenes/isologo.png");
         height: 102px;
         width: 381px;
     }
