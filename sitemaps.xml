@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://dimver.com.ar/</loc>
+	<lastmod>2021-01-19T01:17:32+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dimver.com.ar/view/pages/nosotros.php</loc>
+	<lastmod>2021-01-19T01:17:32+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://dimver.com.ar/view/pages/servicios.php</loc>
+	<lastmod>2021-01-19T01:17:33+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://dimver.com.ar/view/pages/contacto.php</loc>
+	<lastmod>2021-01-19T01:17:36+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+<url>
+	<loc>https://dimver.com.ar/view/pages/nuestrosClientes.php</loc>
+	<lastmod>2021-01-19T01:17:36+01:00</lastmod>
+	<priority>0.9</priority>
+</url>
+</urlset>

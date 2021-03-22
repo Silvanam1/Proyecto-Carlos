@@ -65,16 +65,19 @@ $hoy = date("F j, Y, g:i a");
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logo2bis.ico">
-  <title>DIMVER Seguridad electronica personalizada</title>
+  <link rel="shortcut icon" href="http://dimver.com.ar/img/imagenes/logo3solo.ico">
+  <title>Contacto DIMVER</title>
 
   <meta name="robots" content="all"/>
   <meta name="googlebot" content="all" />  
 <meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sistemas de Seguridad Electrónica adaptados a su necesidad, con la premisa de resguardar la integridad de las personas, su grupo familiar y bienes materiales"> 
+
+  <meta name="keywords" content="DIMVER,dimver,seguridad,camaras vigilancia,seguridad electronica, alarma monitoreada">
     <link rel="stylesheet" href="contacto.css">
 
-    <title>Contacto</title>
+
 </head>
 <body>
     <?php
@@ -242,7 +245,7 @@ $hoy = date("F j, Y, g:i a");
         </div>
 <!-- 
         <div>
-            <img src="../../img/imagenes/fondo4full.jpg" alt="" class="imagenCard" >
+            <img src="../../img/imagenes/fondo4full.webp" alt="" class="imagenCard" >
         </div>
 -->
     </section>

@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logo2bis.ico">
+  <link rel="shortcut icon" href="http://dimver.com.ar/img/imagenes/logo3solo.ico">
   <title>DIMVER Seguridad electronica personalizada</title>
 
   <meta name="robots" content="all"/>
   <meta name="googlebot" content="all" />  
 <meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sistemas de Seguridad Electrónica adaptados a su necesidad, con la premisa de resguardar la integridad de las personas, su grupo familiar y bienes materiales"> 
+
+  <meta name="keywords" content="DIMVER,dimver,seguridad,camaras vigilancia,seguridad electronica, alarma monitoreada">
 
     <link rel="stylesheet" href="servicios.css">
-    <title>Servicios</title>
+
 </head>
 <body>
     <?php
@@ -216,7 +219,7 @@
                                     
                                     <h3 class="negrita" >ESTACIÓN DE MONITOREO. Homologada bajo Norma IRAM 4174</h3>
                                     <figure style="margin-left: 30%;">
-                                        <img src="../../img/imagenes/iram.png" alt="Normas IRAM" class="img">
+                                        <img src="../../img/imagenes/iram.webp" alt="Normas IRAM" class="img">
                                     </figure>
                                 </article>
                                 <article class="" style="background-color: white;justify-content:center;display:grid">
@@ -224,18 +227,18 @@
                                     <h3 class="negrita">Empresa habilitada por el GCBA - LEY N°5688</h3>
                                     <br>
                                     <figure style="margin-left: 30%;">
-                                        <img src="../../img/imagenes/gcba.png" alt="habilidadpor GCBA" class="img">
+                                        <img src="../../img/imagenes/gcba.webp" alt="habilidadpor GCBA" class="img">
                                     </figure>
                                 </article>
                                 <article class="card" style="background-color: white; flex-wrap: wrap; justify-content: center;">
                                     <figure>
-                                        <img src="../../img/imagenes/cemara.png" alt="CEMARA" class="imagenCard img">
+                                        <img src="../../img/imagenes/cemara.webp" alt="CEMARA" class="imagenCard img">
                                     </figure>
                                     <figure>
-                                        <img src="../../img/imagenes/pdp.png" alt="Dirección Nacional de protección de datos personales" class="imagenCard img">
+                                        <img src="../../img/imagenes/pdp.webp" alt="Dirección Nacional de protección de datos personales" class="imagenCard img">
                                     </figure>
                                     <figure>
-                                        <img src="../../img/imagenes/foroseguridad.png" alt="Foro de seguridad" class="imagenCard img"> 
+                                        <img src="../../img/imagenes/foroseguridad.webp" alt="Foro de seguridad" class="imagenCard img"> 
                                     </figure>
                                 </article>
                                 <br>

@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logo2bis.ico">
+  <link rel="shortcut icon" href="http://dimver.com.ar/img/imagenes/logo3solo.ico">
   <title>DIMVER Seguridad electronica personalizada</title>
 
   <meta name="robots" content="all"/>
   <meta name="googlebot" content="all" />  
 <meta http-equiv="Content-Language" content="es"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sistemas de Seguridad Electrónica adaptados a su necesidad, con la premisa de resguardar la integridad de las personas, su grupo familiar y bienes materiales"> 
+
+  <meta name="keywords" content="DIMVER,dimver,seguridad,camaras vigilancia,seguridad electronica, alarma monitoreada">
     <link rel="stylesheet" href="../../general.css">
-    <title>Nosotros</title>
+
     <link rel="stylesheet" href="nosotros.css">
 </head>
 <body>
@@ -54,7 +57,7 @@
             </div>
  
             <div>
-                <img src="../../img/imagenes/fondo4full.jpg" alt="hermoso paisaje con un perro" class="imagenCard" >
+                <img src="../../img/imagenes/fondo4full.webp" alt="hermoso paisaje con un perro" class="imagenCard" >
             </div>
 
         </section>
