@@ -9,15 +9,15 @@
 
 
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 120px) and (max-width: 601px) {
     #header
     {
-        height: 190px;
+        height: 14.375rem;
     }
     #header img{
-        background-image: url("http://dimver.com.ar/img/imagenes/logo3solo.png");
-        height: 90px;
-        width: 206px;
+        padding-bottom: 0.5rem;
+        height: auto;
+        width: 12.675rem;
     }
     #footer{
     
@@ -40,16 +40,16 @@
         display: flex;
         flex-wrap: wrap;
         padding-top: 2%;
-        height: 110px !important;
+        height: 9.375rem !important;
     }
     #header h1{
         width: 30%;
         margin-left: 5%;
     }
     #header img{
-        background-image: url("http://dimver.com.ar/img/imagenes/logo3solo.png");
-        height: 90px;
-        width: 206px;
+        padding-bottom: 0.5rem;
+        height: auto;
+        width: auto;
     }
     #header nav{
         width: 65%;
@@ -82,9 +82,21 @@
 }
 @media (min-width: 1160px) {
     #header img{
-        background-image: url("http://dimver.com.ar/img/imagenes/isologo.png");
-        height: 102px;
-        width: 381px;
+        height: auto;
+        width: auto;
+    }
+}
+@media (min-width: 601px) and (max-width: 708px) {
+    #header {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2%;
+        height: 15.375rem !important;
+    }
+    #header nav {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0.1rem;
     }
 }
 /* las etiquetas #header afecta todas las paginas*/
@@ -109,18 +121,25 @@
     transition-duration: 500ms;
     transition-property: padding;
     padding: 3.1%;
-    border-radius: 5%;
+    border-radius: 7.3%;
 }
 #header img{
+    /* src: url("http://dimver.com.ar/img/imagenes/isologo2021.png"); */
+    padding-bottom: 0.5rem;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 7%;
+}
+.img{
+    padding-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 7%;
 }
 #header img:hover{
     transition-duration: 500ms;
     transition-property: background-color;
     transition-property: border-radius;
     background-color: rgb(248, 246, 246);
-    border-radius: 25px;
+    border-radius: 7.2%;
 }
 #header nav{
     display: flex;
@@ -168,7 +187,13 @@
 .btn{
     margin: 5px;
     padding: 7px;
-    border-radius: 5%;
+    border-radius: 12%;
+    color: white;
+}
+.btn-redes{
+    margin: 1rem;
+    padding: 7px;
+    border-radius: 14%;
     color: white;
 }
 .rojo{

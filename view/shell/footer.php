@@ -34,7 +34,7 @@
                     <ul>
                         <li>
                             <i class="fa fa-phone" aria-hidden="true"></i> 
-                             4629-5298 - Contacto telefónico de lunes a viernes de 8 a 17hs.
+                            5631-6463 - Contacto telefónico de lunes a viernes de 8 a 17hs.
                         </li>                     
                     </ul>
                 </li>
@@ -51,7 +51,19 @@
             </ul>
         </article>
         <article>
-            <img src="https://dimver.com.ar/img/imagenes/QRFiscal.webp" alt="qr fiscal">
+            <ul>
+                <li><img src="https://dimver.com.ar/img/imagenes/QRFiscal.webp" alt="qr fiscal"></li>
+                <li>
+                    <b>Redes Sociales</b>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="https://www.instagram.com/dimver_seguridad_electronica" class="btn-redes rojo" target="_blank"><i class="fab fa-instagram"></i></a><b>Instagram</b></li>
+                        <li><a href="https://www.facebook.com/Dimver-161893752629486" class="btn-redes azul" target="_blank"><i class="fab fa-facebook-square"></i></a><b>Facebook</b></li>
+                    </ul>
+                </li>
+            </ul>
+            
         </article>
     </section>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PT3FQESNS1"></script>
