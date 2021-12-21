@@ -25,78 +25,148 @@
     <section class="card" id="Servicios">
         <div>
             <article class="contenido">
-                <h2 class="tituloCard">Krav magá</h2>
-                <p class="texto">Es la defensa personal creada en Israel por Imi Lichtenfeld,
-                    ya adoptada por fuerzas de seguridad y civiles en todo el mundo. El objetivo
-                    de dar a cualquier persona, independientemente de sexo, edad o porte físico,
-                    la capacidad de defenderse contra cualquier tipo de agresión: armada o
-                    desarmada, contra uno o varios agresores, de pie o en el suelo..</p>
-                <p class="texto">
+                <h2 class="tituloCard">Krav Maga Israelí</h2>
+                <p class="texto">Es el sistema de combate y defensa personal creado por Imi
+                    Lichtenfeld, implementado por numerosas fuerzas de seguridad de
+                    elite en todo el mundo. El objetivo es dar a cualquier persona,
+                    independientemente de sexo, edad o porte físico, la capacidad de
+                    defenderse contra cualquier tipo de agresión: armada o desarmada,
+                    contra uno o varios atacantes.
+                </p>
                 <section class="texto">
                     <article class="" style="background-color: white; justify-content:center;display:grid">
 
-                        <h3 class="negrita">Global Union of Martial Arts</h3>
-                        <figure style="margin-left: 30%;">
-                            <img src="../../img/kravmaga/guma.jpeg" alt="Normas IRAM" class="img imgGrandes">
+                        <h3 class="negrita centrado">Emrich Lichtenfeld</h3>
+                        <figure class="centrado">
+                            <img src="../../img/kravmaga/kravMaga1.jpeg" alt="creador del krav maga" class="img imgGrandes">
                         </figure>
                     </article>
+
                 </section>
+
                 <ul class="lista">
                     <li>
 
-                        <button class="collapsible" id="primeroBoton"><span class="negrita">¿Qué es?</span></button>
+                        <button class="collapsible" id="primeroBoton"><span class="negrita">¿En que consiste?</span></button>
                         <div class="content" id="primeroContenido">
                             <p class="texto">
-                                Krav Maga es el único sistema reconocido mundialmente como sistema
-                                de defensa personal, y no como arte marcial. Su objetivo es enseñar
-                                a cualquier persona, independientemente de edad, sexo o preparación
-                                física, a defenderse.
-                            </p>
-                            <p class="texto">
-                                Traemos respuestas para cualquier tipo de agresión, siendo armada o
-                                desarmada; de pie, sentada o acostada; por delante, por detrás o por
-                                los lados; contra 1, 2 o más agresores. Al final, estamos hablando de
-                                vidas humanas, todo puede suceder y no existe lo imposible. Por eso,
-                                no hay reglas, jueces o competencias en el Krav Maga. Nuestra medalla
-                                es nuestra integridad física y mental. Nuestra competencia es interna,
-                                siempre buscando lo mejor de nosotros mismos. -
+                                El Krav Maga es un Sistema Defensa Personal integral
+                                desarrollado con el objetivo fundamental de dotar al practicante de
+                                un sistema de autodefensa que le permita resolver, de la manera
+                                mas eficiente posible, cualquier intento de agresión. Nuestro sistema
+                                se adapta a cualquier fisionomía e incide en preparar a los
+                                alumnos para situaciones criticas de autodefensa.
                             </p>
                             <section class="texto">
                                 <article class="" style="background-color: white; justify-content:center;display:grid">
 
-                                    <h3 class="negrita">Worl Krav Maga Group</h3>
-                                    <figure style="margin-left: 30%;">
-                                        <img src="../../img/kravmaga/wkmg.jpeg" alt="Normas IRAM" class="img imgGrandes">
+                                    <h3 class="negrita centrado">Sesion de entrenamiento</h3>
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/krav5.jpeg" alt="creador del krav maga" class="img imgGrandes">
                                     </figure>
                                 </article>
                             </section>
+
                         </div>
 
                     </li>
                     <li>
 
-                        <button class="collapsible"><span class="negrita">Tecnica</span></button>
+                        <button class="collapsible"><span class="negrita">Técnica</span></button>
                         <div class="content">
                             <p class="texto">
                                 Las técnicas del Krav Maga son simples, rápidas y objetivas.
                             </p>
 
                             <p class="texto">
-                                Ellas se basan en los movimientos naturales del cuerpo humano, mejorando las reacciones que hacemos naturalmente. De esta forma, en el momento real, cuando necesitamos reaccionar bajo tensión y miedo, se hace más fácil la ejecución de las técnicas, ya que son algo muy próximo a la reacción que haríamos espontáneamente.
+                                Ellas se basan en los movimientos naturales del cuerpo humano,
+                                mejorando las reacciones espontaneas. De esta forma, bajo presión,
+                                se hace más fácil la ejecución de las mismas, ya que son algo muy
+                                próximo a la reacción que haríamos espontáneamente.
                             </p>
 
                             <p class="texto">
-                                Los movimientos son siempre cortos, ya que los movimientos largos son más lentos y fáciles de ver. Además, alcanzamos los puntos sensibles y vitales del cuerpo del agresor, como ojos, nariz, garganta, región genital, etc. De esa manera, eliminamos la necesidad de usar la fuerza bruta y conseguimos igualar lo fuerte, lo débil, lo grande y lo pequeño.
+                                Atacamos puntos sensibles y vitales del cuerpo del agresor, como
+                                ojos, nariz, garganta, región genital, etc. De esa manera,
+                                conseguimos neutralizar rápidamente al agresor, finalizando la
+                                situación de peligro, que es el verdadero objetivo del sistema.
                             </p>
                             <p class="texto">
-                                La técnica se basa en la física, la matemática y la anatomía humana. Utilizamos la fuerza de la explosión y la transferencia del peso para aumentar la potencia de nuestros golpes. Acertamos al agresor con áreas pequeñas de nuestro cuerpo para obtener una mayor capacidad de penetración. Alcanzamos puntos del cuerpo humano con alta concentración de nervios. Usamos palancas, bloqueos, desvíos. Todo es científicamente comprobado y explicado a cada clase.
+                                La técnica se basa en la física, la matemática y la anatomía
+                                humana. Utilizamos la fuerza de la explosión y la transferencia del
+                                peso para aumentar la potencia de nuestros golpes. Alcanzamos
+                                puntos del cuerpo humano con alta concentración de nervios.
+                                Usamos palancas, bloqueos, desvíos. Todo comprobado y explicado
+                                en cada clase.
                             </p>
                             <section class="texto">
                                 <article class="" style="background-color: white; justify-content:center;display:grid">
 
-                                    <h3 class="negrita">Entrenamiento</h3>
-                                    <figure style="margin-left: 30%;">
-                                        <img src="../../img/kravmaga/krav4.jpeg" alt="Normas IRAM" class="img imgGrandes">
+                                    <h3 class="negrita centrado">Claves</h3>
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/kravMaga2.jpeg" alt="krav maga tips" class="img imgGrandes">
+                                    </figure>
+                                </article>
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+
+
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/krav4.jpeg" alt="creador del krav maga" class="img imgGrandes">
+                                    </figure>
+                                </article>
+                            </section>
+
+                        </div>
+
+                    </li>
+
+                    <li>
+
+                        <button class="collapsible"><span class="negrita">¿Quienes somos?</span></button>
+                        <div class="content">
+                            <p class="texto">
+                                World Krav Maga Group es Grupo Krav Maga Mundial Asociación
+                                Civil, registrada ante el Ministerio de Justicia de la Provincia de
+                                Buenos Aires, Argentina con resolución DPPJ 3450 Leg
+                                1/243904, a diferencia de las supuestas asociaciones que
+                                proliferan en nuestro país, sin existencia legal, por lo que sus
+                                certificados y diplomas carecen de validez.
+                            </p>
+                            <p class="texto">
+                                Fue conformada por un grupo de instructores capcitados en las
+                                mas prestigiosas asociaciones de Israel y formados por grandes y
+                                destacados Maestros Israelíes, pero con una mirada acorde a la
+                                realidad legal y económica como la de nuestro país.
+                            <p class="texto">
+                                En la actualidad contamos con representantes en Argentina,
+                                Uruguay, Brasil, Ecuador, Colombia, Costa Rica, Italia y España.
+                            </p>
+                            <section class="texto">
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+
+                                    <h3 class="negrita centrado">World Krav Maga Group</h3>
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/kravMaga3.jpeg" alt="krav maga logo" class="img imgGrandes">
+                                    </figure>
+                                </article>
+                            </section>
+                        </div>
+
+                    </li>
+                    <li>
+
+                        <button class="collapsible"><span class="negrita">CURSOS</span> AUTOPROTECCIÓN COLECTIVOS</button>
+                        <div class="content">
+                            <p class="texto">
+                                Nuestros cursos de autoprotección, desarrollados en conjunto con la empresa Dimver, se adaptan a
+                                las necesidades especificas de cada colectivo social o profesional
+                            </p>
+                            <section class="texto">
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+
+                                    <h3 class="negrita centrado">Entrenamiento con armas simuladas</h3>
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/kravMaga6.jpeg" alt="Normas IRAM" class="img imgGrandes">
                                     </figure>
                                 </article>
                             </section>
@@ -104,41 +174,6 @@
 
                     </li>
 
-                    <li>
-
-                        <button class="collapsible"><span class="negrita">Comienzos</span></button>
-                        <div class="content">
-                            <p class="texto">
-                                El surgimiento del Krav Maga fue el resultado natural de la unión de dos historias: la historia de Imi, el creador del Krav Maga y la historia del Estado de Israel.
-                            </p>
-                            <p class="texto">
-                                Desde muy pequeño, en el ámbito familiar, Imi aprendió la importancia de ser actuante en la sociedad. Su padre, detective dedicado e instructor de combate de la policía secreta, no medía esfuerzos para realizar su misión aún siendo el inspector con más arrestos de criminales peligrosos efectuados en su país. La definición de cierto e incorrecto, el deber y el placer de ayudar al prójimo fueron valores básicos de su formación.
-                            <p class="texto">
-                                Como deportista, buscaba superar los límites de su cuerpo; como luchador, concluía que las técnicas de defensa y combate que existían no atendían a las necesidades de las calles. Las técnicas de gimnasios o ring de competiciones de nada valían en situaciones reales de confrontación.
-                            </p>
-                        </div>
-
-                    </li>
-                    <li>
-
-                        <button class="collapsible"><span class="negrita">Presencia en las Fuerzas de seguridad </span> Para comercios, oficinas, financieras, y rubro que lo solicite.</button>
-                        <div class="content">
-                            <p class="texto">
-                                Las fuerzas de seguridad – unidades militares, policiales o de seguridad privada – enfrentan situaciones, objetivos, niveles de riesgo y requisitos completamente diferentes del mundo civil y por eso, el entrenamiento del Krav Maga debe ser diferente de lo que ocurre en clases regulares en gimnasios. Se deben considerar características y peculiaridades del mundo de las fuerzas de seguridad.
-                            </p>
-                            <section class="texto">
-                                <article class="" style="background-color: white; justify-content:center;display:grid">
-
-                                    <h3 class="negrita">Entrenamiento con armas simuladas</h3>
-                                    <figure style="margin-left: 30%;">
-                                        <img src="../../img/kravmaga/krav3.jpeg" alt="Normas IRAM" class="img imgGrandes">
-                                    </figure>
-                                </article>
-                            </section>
-                        </div>
-
-                    </li>
-                    
                 </ul>
 
 

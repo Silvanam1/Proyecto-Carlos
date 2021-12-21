@@ -1,6 +1,9 @@
 ul{ 
   list-style: none;
 }
+.centrado{
+  text-align: center;
+}
 .collapsible {
     background-color: #088CFF;
     color: white;
