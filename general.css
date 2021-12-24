@@ -5,12 +5,32 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+@media (min-width: 120px) and (max-width: 359px) {
+  .myButton {
+    width: 90px;
+    margin-top: 2px;
+    margin-left: 2px;
+    height: fit-content;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    background-color: #79bbff;
+    border-radius: 5px;
+    border: 1px solid #337bc4;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px !important;
+    text-decoration: none;
+  }
+}
 
 
 
 @media (min-width: 120px) and (max-width: 601px) {
   #header {
-    height: 14.375rem;
+    height: 17rem;
   }
   #header img {
     padding-bottom: 0.5rem;
@@ -47,6 +67,11 @@
     padding: 10px 40px;
     text-decoration: none;
   }
+  .imagenMuyGrande{
+    height: 250px;
+    width: auto;
+  }
+
 }
 @media (min-width: 600px) {
   #header {
@@ -116,6 +141,9 @@
     position: relative;
     top: 1px;
   }
+  .imagenMuyGrande{
+    width: 400px;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 708px) {
@@ -131,7 +159,7 @@
     margin-left: 0.1rem;
   }
   .myButton {
-    margin-top: 22px;
+    margin-top: 20px;
     margin-left: 5px;
     height: fit-content;
     box-shadow: 3px 4px 0px 0px #1564ad;
@@ -174,7 +202,7 @@
       width: 65%;
     }
     .myButton {
-        margin-top: 22px;
+        margin-top: 20px;
         margin-left: 5px;
         height: fit-content;
         box-shadow: 3px 4px 0px 0px #1564ad;

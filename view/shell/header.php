@@ -10,7 +10,10 @@
 
     <nav> 
         <a href="http://dimver.com.ar/view/pages/nosotros.php" class="myButton"> Nosotros </a>
-        <a href="http://dimver.com.ar/view\pages\servicios.php" class="myButton"> Servicios </a>
+        <div style="display: flex; flex-direction:column;">
+            <a href="http://dimver.com.ar/view\pages\servicios.php" class="myButton"> Servicios </a>
+            <a href="http://dimver.com.ar/view\pages\krav.php" class="myButton" style="height: 20px;font-size: 18px;"> Kravmaga </a>
+        </div>
         <a href="http://dimver.com.ar/view\pages\nuestrosClientes.php" class="myButton"> Clientes </a>
         <a href="http://dimver.com.ar/view/pages/contacto.php" class="myButton"> Contacto </a>
     </nav>

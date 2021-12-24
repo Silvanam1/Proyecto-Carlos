@@ -38,13 +38,45 @@
 
                         <h3 class="negrita centrado">Emrich Lichtenfeld</h3>
                         <figure class="centrado">
-                            <img src="../../img/kravmaga/kravMaga1.jpeg" alt="creador del krav maga" class="img imgGrandes">
+                            <img src="../../img/kravmaga/kravMaga1.jpeg" alt="tips de krav maga imagen " class="img imgGrandes">
                         </figure>
                     </article>
 
                 </section>
 
                 <ul class="lista">
+                    <li>
+
+                        <button class="collapsible"><span class="negrita">¿Quienes somos?</span></button>
+                        <div class="content">
+                            <p class="texto">
+                                World Krav Maga Group es Grupo Krav Maga Mundial Asociación
+                                Civil, registrada ante el Ministerio de Justicia de la Provincia de
+                                Buenos Aires, Argentina con resolución DPPJ 3450 Leg
+                                1/243904, a diferencia de las supuestas asociaciones que
+                                proliferan en nuestro país, sin existencia legal, por lo que sus
+                                certificados y diplomas carecen de validez.
+                            </p>
+                            <p class="texto">
+                                Fue conformada por un grupo de instructores capcitados en las
+                                mas prestigiosas asociaciones de Israel y formados por grandes y
+                                destacados Maestros Israelíes, pero con una mirada acorde a la
+                                realidad legal y económica como la de nuestro país.
+                            <p class="texto">
+                                En la actualidad contamos con representantes en Argentina,
+                                Uruguay, Brasil, Ecuador, Colombia, Costa Rica, Italia y España.
+                            </p>
+                            <section class="texto">
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <h3 class="negrita centrado">World Krav Maga Group</h3>
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/kravMaga3.jpeg" alt="krav maga logo" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                            </section>
+                        </div>
+
+                    </li>
                     <li>
 
                         <button class="collapsible" id="primeroBoton"><span class="negrita">¿En que consiste?</span></button>
@@ -62,7 +94,7 @@
 
                                     <h3 class="negrita centrado">Sesion de entrenamiento</h3>
                                     <figure class="centrado">
-                                        <img src="../../img/kravmaga/krav5.jpeg" alt="creador del krav maga" class="img imgGrandes">
+                                        <img src="../../img/kravmaga/krav5.jpeg" alt="tips de krav maga imagen " class="img imagenMuyGrande">
                                     </figure>
                                 </article>
                             </section>
@@ -101,17 +133,8 @@
                             </p>
                             <section class="texto">
                                 <article class="" style="background-color: white; justify-content:center;display:grid">
-
-                                    <h3 class="negrita centrado">Claves</h3>
                                     <figure class="centrado">
-                                        <img src="../../img/kravmaga/kravMaga2.jpeg" alt="krav maga tips" class="img imgGrandes">
-                                    </figure>
-                                </article>
-                                <article class="" style="background-color: white; justify-content:center;display:grid">
-
-
-                                    <figure class="centrado">
-                                        <img src="../../img/kravmaga/krav4.jpeg" alt="creador del krav maga" class="img imgGrandes">
+                                        <img src="../../img/kravmaga/kravMaga2.jpeg" alt="krav maga tips" class="img imagenMuyGrande">
                                     </figure>
                                 </article>
                             </section>
@@ -120,39 +143,7 @@
 
                     </li>
 
-                    <li>
 
-                        <button class="collapsible"><span class="negrita">¿Quienes somos?</span></button>
-                        <div class="content">
-                            <p class="texto">
-                                World Krav Maga Group es Grupo Krav Maga Mundial Asociación
-                                Civil, registrada ante el Ministerio de Justicia de la Provincia de
-                                Buenos Aires, Argentina con resolución DPPJ 3450 Leg
-                                1/243904, a diferencia de las supuestas asociaciones que
-                                proliferan en nuestro país, sin existencia legal, por lo que sus
-                                certificados y diplomas carecen de validez.
-                            </p>
-                            <p class="texto">
-                                Fue conformada por un grupo de instructores capcitados en las
-                                mas prestigiosas asociaciones de Israel y formados por grandes y
-                                destacados Maestros Israelíes, pero con una mirada acorde a la
-                                realidad legal y económica como la de nuestro país.
-                            <p class="texto">
-                                En la actualidad contamos con representantes en Argentina,
-                                Uruguay, Brasil, Ecuador, Colombia, Costa Rica, Italia y España.
-                            </p>
-                            <section class="texto">
-                                <article class="" style="background-color: white; justify-content:center;display:grid">
-
-                                    <h3 class="negrita centrado">World Krav Maga Group</h3>
-                                    <figure class="centrado">
-                                        <img src="../../img/kravmaga/kravMaga3.jpeg" alt="krav maga logo" class="img imgGrandes">
-                                    </figure>
-                                </article>
-                            </section>
-                        </div>
-
-                    </li>
                     <li>
 
                         <button class="collapsible"><span class="negrita">CURSOS</span> AUTOPROTECCIÓN COLECTIVOS</button>
@@ -164,18 +155,61 @@
                             <section class="texto">
                                 <article class="" style="background-color: white; justify-content:center;display:grid">
 
-                                    <h3 class="negrita centrado">Entrenamiento con armas simuladas</h3>
+                                    <h3 class="negrita centrado">Armas de entrenamiento</h3>
                                     <figure class="centrado">
-                                        <img src="../../img/kravmaga/kravMaga6.jpeg" alt="Normas IRAM" class="img imgGrandes">
+                                        <img src="../../img/kravmaga/kravMaga6.jpeg" alt="Normas IRAM" class="img imagenMuyGrande">
                                     </figure>
                                 </article>
                             </section>
                         </div>
 
                     </li>
+                    <li>
+                        <button class="collapsible" id="primeroBoton"><span class="negrita">Tips de Seguridad</span></button>
+                        <div class="content" id="primeroContenido">
+                            <section class="texto">
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/tipsKravMagaDimver1.jpg" alt="tips de krav maga imagen 1" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/tipsKravMagaDimver2.jpg" alt="tips de krav maga imagen 2" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/tipsKravMagaDimver3.jpg" alt="tips de krav maga imagen 3" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/tipsKravMagaDimver4.jpg" alt="tips de krav maga imagen 4" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/tipsKravMagaDimver5.jpg" alt="tips de krav maga imagen 5" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                                <article class="" style="background-color: white; justify-content:center;display:grid">
+                                    <figure class="centrado">
+                                        <img src="../../img/kravmaga/tipsKravMagaDimver6.jpg" alt="tips de krav maga imagen 6" class="img imagenMuyGrande">
+                                    </figure>
+                                </article>
+                            </section>
+
+                        </div>
+
+                    </li>
 
                 </ul>
-
+                <article class="" style="background-color: white; justify-content:center;display:grid">
+                    <figure class="centrado">
+                        <img src="../../img/kravmaga/kravMaga4.jpeg" alt="asociacion con dimver" class="img imagenMuyGrande">
+                    </figure>
+                </article>
 
             </article>
 
