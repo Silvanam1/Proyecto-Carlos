@@ -58,7 +58,7 @@
                                 certificados y diplomas carecen de validez.
                             </p>
                             <p class="texto">
-                                Fue conformada por un grupo de instructores capcitados en las
+                                Fue conformada por un grupo de instructores capacitados en las
                                 mas prestigiosas asociaciones de Israel y formados por grandes y
                                 destacados Maestros Israelíes, pero con una mirada acorde a la
                                 realidad legal y económica como la de nuestro país.
@@ -91,10 +91,8 @@
                             </p>
                             <section class="texto">
                                 <article class="" style="background-color: white; justify-content:center;display:grid">
-
-                                    <h3 class="negrita centrado">Sesion de entrenamiento</h3>
                                     <figure class="centrado">
-                                        <img src="../../img/kravmaga/krav5.jpeg" alt="tips de krav maga imagen " class="img imagenMuyGrande">
+                                        <img src="../../img/kravmaga/kravMagaDimver1.jpg" alt="tips de krav maga imagen " class="img imagenMuyGrande">
                                     </figure>
                                 </article>
                             </section>
@@ -112,7 +110,7 @@
 
                             <p class="texto">
                                 Ellas se basan en los movimientos naturales del cuerpo humano,
-                                mejorando las reacciones espontaneas. De esta forma, bajo presión,
+                                mejorando las reacciones. De esta forma, bajo presión,
                                 se hace más fácil la ejecución de las mismas, ya que son algo muy
                                 próximo a la reacción que haríamos espontáneamente.
                             </p>
